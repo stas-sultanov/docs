@@ -53,7 +53,7 @@ Following table compares options by price
 In order to give understending about aproximate cost of ownership, this section provides several use-case scenarios.
 * Stakeholders are operating with requirements only.
 * Performance tests, Build & Release agents and Package Management are not included.
-* Gost of **Option M** may be reduced if users have [Visual Studio Subscriptions](https://www.visualstudio.com/vs/pricing/).
+* Cost of **Option M** may be reduced if users have [Visual Studio Subscriptions](https://www.visualstudio.com/vs/pricing/).
 
 
 ### Scenario 1
