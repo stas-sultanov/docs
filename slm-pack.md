@@ -36,7 +36,7 @@ Following table compares options by different aspects
 Following table compares options by cost per month
 
 | | Option A | | Option M | |
-|:--|:--|:--------|:--|:---------|
+|:--|:----|:--|:----|:--|
 | Area | Product | Cost | Tool | Cost |
 | Knowledge Sharing | [Atlassian Confluence](https://www.atlassian.com/software/confluence) |\<10 users: $10<br/>\>10 users: [$5/user](https://www.atlassian.com/software/confluence/pricing) | [Wiki](https://www.visualstudio.com/team-services/wiki/) |free: 5 users<br/>extra: [$3/user](https://marketplace.visualstudio.com/items?itemName=ms.vss-vstsuser#pricing)|
 | Requirements Management | [Atlassian Jira](https://jira.atlassian.com/) |\<10 users: [$10](https://www.atlassian.com/software/jira/pricing)<br/>\>10 users: $7/user | [Agile Tools](https://www.visualstudio.com/team-services/agile-tools/) | Included |
@@ -45,9 +45,11 @@ Following table compares options by cost per month
 | Test | [Gurock TestRail](http://www.gurock.com/testrail/) | [$25/user](http://www.gurock.com/testrail/pricing/cloud/) | [Test Manager](https://www.visualstudio.com/team-services/testing-tools/) | [$52/user](https://marketplace.visualstudio.com/items?itemName=ms.vss-testmanager-web#pricing) |
 | Package Management | [NuGet Server](https://docs.microsoft.com/en-us/nuget/hosting-packages/nuget-server) | \*1 |[Package Manager](https://www.visualstudio.com/team-services/reporting/) | free: 5 users<br/>extra: [$4/user](https://marketplace.visualstudio.com/items?itemName=ms.feed#pricing) |
 | Symbols Server |  | \*1 | [Package Manager](https://www.visualstudio.com/team-services/reporting/) | Included |
-| Test Performance | [Load Impact](https://loadimpact.com/) | [$300](https://loadimpact.com/pricing) | [Cloud Based Load Tests](https://www.visualstudio.com/team-services/cloud-load-testing/) | free: 20k-VUMS<br/>extra: [$36/100k-VUMS](https://docs.microsoft.com/en-us/vsts/billing/buy-load-testing-vs#_buy-load-testing) |
+| Test Performance | [Load Impact](https://loadimpact.com/) | [$300](https://loadimpact.com/pricing) | [Load Tests (VUMS)](https://www.visualstudio.com/team-services/cloud-load-testing/) | free: 20k<br/>extra: [$36/100k](https://docs.microsoft.com/en-us/vsts/billing/buy-load-testing-vs#_buy-load-testing) \*2 |
 
 \*1 requires additional infrastructure, setup, provision and maintainance.
+
+\*2 is charged by consumption.
 
 ## Use scenarios
 In order to give understending about aproximate cost of ownership, this section provides several use-case scenarios.
