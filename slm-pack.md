@@ -3,8 +3,8 @@
 To provide a lifecycle of the solution it is required to have certain tools which are responsible for different areas.  
 In general there are 2 options of getting this tools:
 
-*   Option A - to assemble from different tools from different vendors.
-*   Option M - to get a pack, so called Solution Lifecycle Management package from one vendor.
+* assemble from different tools from different vendors.
+* get a pack, so called Solution Lifecycle Management package, from one vendor.
 
 It’s like you need a car to ride and you can go to Mercedes store and buy one or you can get to a market buy separate parts and assemble one.
 
@@ -50,10 +50,11 @@ Following table compares options by price
 \*1 requires additional infrastructure, setup, provision and maintainance.
 
 ## Use scenarios
-In order to give understending about total cost of ownership, this section provides several use-case scenarios.
-Final cost of **Option M** may be reduced by utilizing existing [Visual Studio Subscriptions](https://www.visualstudio.com/vs/pricing/).
-Stakeholder are operating with requirements and test cases only.
-Performance tests are not included.
+In order to give understending about aproximate cost of ownership, this section provides several use-case scenarios.
+* Stakeholders are operating with requirements only.
+* Performance tests, Build & Release agents and Package Management are not included.
+* Gost of **Option M** may be reduced if users have [Visual Studio Subscriptions](https://www.visualstudio.com/vs/pricing/).
+
 
 ### Scenario 1
 Small size team: 3 stakeholders, 5 dev/ops, 1 tester.
@@ -66,11 +67,10 @@ Small size team: 3 stakeholders, 5 dev/ops, 1 tester.
 | Jira | $30 | $50 | $10 | $90 |
 | Bitbucket | | $25 | $5 | $30 |
 | TestRail | | $125 | $25 | $150 |
-| **Option M** | | | | **$61** |
-| Wiki, Work, Release | | | $5 | $5 | **$101** |
+| **Option M** | | | | **$57** |
+| Wiki & Agile Tools | | | $5 | $5 |
 | Source Control | | | Included | $0 |
 | Test | | | $52 | $52 |
-| Package Management | | | $4 | $4 | developer | tester | Totoal |
 
 ### Scenario 2
 Mdium size team: 5 stakeholders, 20 dev/ops, 5 testers.
@@ -83,8 +83,7 @@ Mdium size team: 5 stakeholders, 20 dev/ops, 5 testers.
 | Jira | $35 | $140 | $35 | $210 |
 | Bitbucket | | $100 | $25 | $125 |
 | TestRail | | | | $600 |
-| **Option M** | | | | **$490** |
-| Wiki, Work, Release | | $150 | Included | $150 |
+| **Option M** | | | | **$410** |
+| Wiki & Agile Tools | | $150 | Included | $150 |
 | Source Control | | Included | Included | $0 |
 | Test | | | $260 | $260 |
-| Package Management | | $80 | Included | $80 |
