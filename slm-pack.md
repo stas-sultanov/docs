@@ -20,7 +20,7 @@ First of all let's take a look at possible options:
 Following table compares options by different aspects
 
 | | Area | Option A | | Option M | |
-|:---|:---|:---|:---|:---|:---|
+|:--|:----|:------|:--|:------|:--|
 | 1 | Price & Payment |- Purchases from each vendor of each service are separate.<br/>- **Separate invoices** at the end of the month.<br/>- Total **cost** of ownership is **greater** than all-in-one solutions.| - |- All services are purchased from one vendor as pack.<br/>- **One invoice** at the end of the month.<br/>- Total **cost** of ownership is **less** than separate systems.| + |
 | 2 | Legal | It is required to accept **different policies** from **each vendor**. | - | It is required to accept **one policy** from **only one vendor**. | + |
 | 3 | Security & Compliance | [Atlassian has achieved following certificates for some cloud services:](https://www.atlassian.com/trust/compliance)<br/>- GDPR<br/>- ISO 27001<br/>- SOC 2 Type 1<br/>- CSA STAR Level 1|-| [Microsoft has achieved following list of certificates for VSTS:](https://docs.microsoft.com/en-us/vsts/articles/team-services-security-whitepaper)<br/>- GDPR<br/>-  ISO 27001:2013<br/>-  HIPAA<br/>-  BAA<br/>-  EU Model Clauses<br/>-  SOC 1 Type 2 and SOC 2 Type 2| + |
