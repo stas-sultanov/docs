@@ -21,7 +21,7 @@ Following table compares options by different aspects
 
 | | Area | Option A | | Option M | |
 |:--|:----|:------|:--|:------|:--|
-| 1 | Price & Payment |- Purchases from each vendor of each service are separate.<br/>- **Separate invoices** at the end of the month.<br/>- Total **cost** of ownership is **greater** than all-in-one solutions.| - |- All services are purchased from one vendor as pack.<br/>- **One invoice** at the end of the month.<br/>- Total **cost** of ownership is **less** than separate systems.| + |
+| 1 | Cost & Payment |- Purchases from each vendor of each service are separate.<br/>- **Separate invoices** at the end of the month.<br/>- Total **cost** of ownership is **greater** than all-in-one solutions.| - |- All services are purchased from one vendor as pack.<br/>- **One invoice** at the end of the month.<br/>- Total **cost** of ownership is **less** than separate systems.| + |
 | 2 | Legal | It is required to accept **different policies** from **each vendor**. | - | It is required to accept **one policy** from **only one vendor**. | + |
 | 3 | Security & Compliance | [Atlassian has achieved following certificates for some cloud services:](https://www.atlassian.com/trust/compliance)<br/>- GDPR<br/>- ISO 27001<br/>- SOC 2 Type 1<br/>- CSA STAR Level 1|-| [Microsoft has achieved following list of certificates for VSTS:](https://docs.microsoft.com/en-us/vsts/articles/team-services-security-whitepaper)<br/>- GDPR<br/>-  ISO 27001:2013<br/>-  HIPAA<br/>-  BAA<br/>-  EU Model Clauses<br/>-  SOC 1 Type 2 and SOC 2 Type 2| + |
 | 4 | Identity & Access Management | Requires **separate** management of each user for each system.  Integration of some products with Identity Service is available for **additional cost.** | - | VSTS provides integration with the Azure Active Directory **out of the box**. | + |
@@ -31,21 +31,21 @@ Following table compares options by different aspects
 | 8 | Adoption | **Some products** are used already. | + | It may require to educate **some people.** | - |
 | **Total** | | | **1** | | **7** |
 
-## Compare by price
+## Compare by cost
 
-Following table compares options by price
+Following table compares options by cost per month
 
 | | Option A | | Option M | |
 |:--|:--|:--------|:--|:---------|
-| Area | Product | Price | Tool | Price |
-| Knowledge Sharing | [Atlassian Confluence](https://www.atlassian.com/software/confluence) |\<10 users: $10/month<br/>\>10 users: [$5/user/month](https://www.atlassian.com/software/confluence/pricing) | [Wiki](https://www.visualstudio.com/team-services/wiki/) |free: 5 users<br/>extra: [$3/user/month](https://marketplace.visualstudio.com/items?itemName=ms.vss-vstsuser#pricing)|
-| Requirements Management | [Atlassian Jira](https://jira.atlassian.com/) |\<10 users: [$10/month](https://www.atlassian.com/software/jira/pricing)<br/>\>10 users: $7/user/month | [Agile Tools](https://www.visualstudio.com/team-services/agile-tools/) | Included |
-| Source Control | [Atlassian Bitbucket](https://www.atlassian.com/software/bitbucket) |\<5 users: free<br/>\>5 users: [$5/user/month](https://www.atlassian.com/software/bitbucket/pricing?tab=cloud)| [Git](https://www.visualstudio.com/team-services/git/) | Included |
-| Build & Release | [Jenkins](https://jenkins.io/) | \*1 | [CI & CD](https://www.visualstudio.com/team-services/continuous-integration/) | free: 240min/month<br/>extra: [$40/pipe/month](https://marketplace.visualstudio.com/items?itemName=ms.build-release-hosted-pipelines#pricing) |
-| Test | [Gurock TestRail](http://www.gurock.com/testrail/) | [$25/user/month](http://www.gurock.com/testrail/pricing/cloud/) | [Test Manager](https://www.visualstudio.com/team-services/testing-tools/) | [$52/user/month](https://marketplace.visualstudio.com/items?itemName=ms.vss-testmanager-web#pricing) |
-| Test Performance | [Load Impact](https://loadimpact.com/) | [$300/month](https://loadimpact.com/pricing) | [Cloud Based Load Tests](https://www.visualstudio.com/team-services/cloud-load-testing/) | free: 20k-VUMS/month<br/>extra: [$36/100k-VUMS](https://docs.microsoft.com/en-us/vsts/billing/buy-load-testing-vs#_buy-load-testing) |
-| Package Management | [NuGet Server](https://docs.microsoft.com/en-us/nuget/hosting-packages/nuget-server) | \*1 |[Package Manager](https://www.visualstudio.com/team-services/reporting/) | free: 5 users<br/>extra: [$4/user/month](https://marketplace.visualstudio.com/items?itemName=ms.feed#pricing) |
+| Area | Product | Cost | Tool | Cost |
+| Knowledge Sharing | [Atlassian Confluence](https://www.atlassian.com/software/confluence) |\<10 users: $10<br/>\>10 users: [$5/user](https://www.atlassian.com/software/confluence/pricing) | [Wiki](https://www.visualstudio.com/team-services/wiki/) |free: 5 users<br/>extra: [$3/user](https://marketplace.visualstudio.com/items?itemName=ms.vss-vstsuser#pricing)|
+| Requirements Management | [Atlassian Jira](https://jira.atlassian.com/) |\<10 users: [$10](https://www.atlassian.com/software/jira/pricing)<br/>\>10 users: $7/user | [Agile Tools](https://www.visualstudio.com/team-services/agile-tools/) | Included |
+| Source Control | [Atlassian Bitbucket](https://www.atlassian.com/software/bitbucket) |\<5 users: free<br/>\>5 users: [$5/user](https://www.atlassian.com/software/bitbucket/pricing?tab=cloud)| [Git](https://www.visualstudio.com/team-services/git/) | Included |
+| Build & Release | [Jenkins](https://jenkins.io/) | \*1 | [CI & CD](https://www.visualstudio.com/team-services/continuous-integration/) | free: 240min<br/>extra: [$40/pipe](https://marketplace.visualstudio.com/items?itemName=ms.build-release-hosted-pipelines#pricing) |
+| Test | [Gurock TestRail](http://www.gurock.com/testrail/) | [$25/user](http://www.gurock.com/testrail/pricing/cloud/) | [Test Manager](https://www.visualstudio.com/team-services/testing-tools/) | [$52/user](https://marketplace.visualstudio.com/items?itemName=ms.vss-testmanager-web#pricing) |
+| Package Management | [NuGet Server](https://docs.microsoft.com/en-us/nuget/hosting-packages/nuget-server) | \*1 |[Package Manager](https://www.visualstudio.com/team-services/reporting/) | free: 5 users<br/>extra: [$4/user](https://marketplace.visualstudio.com/items?itemName=ms.feed#pricing) |
 | Symbols Server |  | \*1 | [Package Manager](https://www.visualstudio.com/team-services/reporting/) | Included |
+| Test Performance | [Load Impact](https://loadimpact.com/) | [$300](https://loadimpact.com/pricing) | [Cloud Based Load Tests](https://www.visualstudio.com/team-services/cloud-load-testing/) | free: 20k-VUMS<br/>extra: [$36/100k-VUMS](https://docs.microsoft.com/en-us/vsts/billing/buy-load-testing-vs#_buy-load-testing) |
 
 \*1 requires additional infrastructure, setup, provision and maintainance.
 
@@ -54,7 +54,6 @@ In order to give understending about aproximate cost of ownership, this section 
 * Stakeholders are operating with requirements only.
 * Performance tests, Build & Release agents and Package Management are not included.
 * Cost of **Option M** may be reduced if users have [Visual Studio Subscriptions](https://www.visualstudio.com/vs/pricing/).
-
 
 ### Scenario 1
 Small size team: 3 stakeholders, 5 dev/op, 1 tester.
