@@ -41,10 +41,50 @@ Following table compares options by price
 | Knowledge Sharing | [Atlassian Confluence](https://www.atlassian.com/software/confluence) |\<10 users: $10/month<br/>\>10 users: [$5/user/month](https://www.atlassian.com/software/confluence/pricing) | [Wiki](https://www.visualstudio.com/team-services/wiki/) |free: 5 users<br/>extra: [$3/user/month](https://marketplace.visualstudio.com/items?itemName=ms.vss-vstsuser#pricing)|
 | Requirements Management | [Atlassian Jira](https://jira.atlassian.com/) |\<10 users: [$10/month](https://www.atlassian.com/software/jira/pricing)<br/>\>10 users: $7/user/month | [Agile Tools](https://www.visualstudio.com/team-services/agile-tools/) | Included |
 | Source Control | [Atlassian Bitbucket](https://www.atlassian.com/software/bitbucket) |\<5 users: free<br/>\>5 users: [$5/user/month](https://www.atlassian.com/software/bitbucket/pricing?tab=cloud)| [Git](https://www.visualstudio.com/team-services/git/) | Included |
-| Build & Release | [Jenkins](https://jenkins.io/) | \*1 | [CI & CD](https://www.visualstudio.com/team-services/continuous-integration/) | free: 240min/month<br/>extra: [$40/pipeline/month](https://marketplace.visualstudio.com/items?itemName=ms.build-release-hosted-pipelines#pricing) |
+| Build & Release | [Jenkins](https://jenkins.io/) | \*1 | [CI & CD](https://www.visualstudio.com/team-services/continuous-integration/) | free: 240min/month<br/>extra: [$40/pipe/month](https://marketplace.visualstudio.com/items?itemName=ms.build-release-hosted-pipelines#pricing) |
 | Test | [Gurock TestRail](http://www.gurock.com/testrail/) | [$25/user/month](http://www.gurock.com/testrail/pricing/cloud/) | [Test Manager](https://www.visualstudio.com/team-services/testing-tools/) | [$52/user/month](https://marketplace.visualstudio.com/items?itemName=ms.vss-testmanager-web#pricing) |
 | Test Performance | [Load Impact](https://loadimpact.com/) | [$300/month](https://loadimpact.com/pricing) | [Cloud Based Load Tests](https://www.visualstudio.com/team-services/cloud-load-testing/) | free: 20k-VUMS/month<br/>extra: [$36/100k-VUMS](https://docs.microsoft.com/en-us/vsts/billing/buy-load-testing-vs#_buy-load-testing) |
 | Package Management | [NuGet Server](https://docs.microsoft.com/en-us/nuget/hosting-packages/nuget-server) | \*1 |[Package Manager](https://www.visualstudio.com/team-services/reporting/) | free: 5 users<br/>extra: [$4/user/month](https://marketplace.visualstudio.com/items?itemName=ms.feed#pricing) |
 | Symbols Server |  | \*1 | [Package Manager](https://www.visualstudio.com/team-services/reporting/) | Included |
 
 \*1 requires additional infrastructure, setup, provision and maintainance.
+
+## Use scenarios
+In order to give understending about total cost of ownership, this section provides several use-case scenarios.
+Final cost of **Option M** may be reduced by utilizing existing [Visual Studio Subscriptions](https://www.visualstudio.com/vs/pricing/).
+Stakeholder are operating with requirements and test cases only.
+Performance tests are not included.
+
+### Scenario #1
+Small size team: 3 stakeholders, 5 dev/ops, 1 tester.
+
+| | stakeholder | dev/ops | test | Totoal |
+|:----|:----|:----|:----|:----|
+| | 3 | 5 | 1 | |
+| **Option A** | | | | **$280** |
+| Confluence | | | | $10 | 
+| Jira | $30 | $50 | $10 | $90 |
+| Bitbucket | | $25 | $5 | $30 |
+| TestRail | | $125 | $25 | $150 |
+| **Option M** | | | | **$61** |
+| Wiki, Work, Release | | | $5 | $5 | **$101** |
+| Source Control | | | Included | $0 |
+| Test | | | $52 | $52 |
+| Package Management | | | $4 | $4 | developer | tester | Totoal |
+
+### Scenario #2
+Mdium size team: 5 stakeholders, 20 developers, 5 testers.
+
+| | stakeholder | dev/ops | test | Totoal |
+|:----|:----|:----|:----|:----|
+| | 5 | 20 | 5 | |
+| **Option A** | | | | **$1085** |
+| Confluence | $25 | $100 | $25 | $150 | 
+| Jira | $35 | $140 | $35 | $210 |
+| Bitbucket | | $100 | $25 | $125 |
+| TestRail | | | | $600 |
+| **Option M** | | | | **$490** |
+| Wiki, Work, Release | | $150 | Included | $150 |
+| Source Control | | Included | Included | $0 |
+| Test | | | $260 | $260 |
+| Package Management | | $80 | Included | $80 |
