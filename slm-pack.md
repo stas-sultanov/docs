@@ -57,9 +57,9 @@ In order to give understending about aproximate cost of ownership, this section 
 
 
 ### Scenario 1
-Small size team: 3 stakeholders, 5 dev/ops, 1 tester.
+Small size team: 3 stakeholders, 5 dev/op, 1 tester.
 
-| | stakeholder | dev/ops | test | Totoal |
+| | stakeholder | dev/op | test | Totoal |
 |:----|:----|:----|:----|:----|
 | | 3 | 5 | 1 | |
 | **Option A** | | | | **$280** |
@@ -73,9 +73,9 @@ Small size team: 3 stakeholders, 5 dev/ops, 1 tester.
 | Test | | | $52 | $52 |
 
 ### Scenario 2
-Mdium size team: 5 stakeholders, 20 dev/ops, 5 testers.
+Mdium size team: 5 stakeholders, 20 dev/op, 5 testers.
 
-| | stakeholder | dev/ops | test | Totoal |
+| | stakeholder | dev/op | test | Totoal |
 |:----|:----|:----|:----|:----|
 | | 5 | 20 | 5 | |
 | **Option A** | | | | **$1085** |
