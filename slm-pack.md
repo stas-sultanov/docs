@@ -74,7 +74,7 @@ Small size team: 3 stakeholders, 5 dev/op, 1 tester.
 | Test | | | $52 | $52 |
 
 ### Scenario 2
-Mdium size team: 5 stakeholders, 20 dev/op, 5 testers.
+Medium size team: 5 stakeholders, 20 dev/op, 5 testers.
 
 | | stakeholder | dev/op | test | Totoal |
 |:----|:----|:----|:----|:----|
