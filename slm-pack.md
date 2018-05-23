@@ -55,7 +55,7 @@ Final cost of **Option M** may be reduced by utilizing existing [Visual Studio S
 Stakeholder are operating with requirements and test cases only.
 Performance tests are not included.
 
-### Scenario #1
+### Scenario 1
 Small size team: 3 stakeholders, 5 dev/ops, 1 tester.
 
 | | stakeholder | dev/ops | test | Totoal |
@@ -72,7 +72,7 @@ Small size team: 3 stakeholders, 5 dev/ops, 1 tester.
 | Test | | | $52 | $52 |
 | Package Management | | | $4 | $4 | developer | tester | Totoal |
 
-### Scenario #2
+### Scenario 2
 Mdium size team: 5 stakeholders, 20 dev/ops, 5 testers.
 
 | | stakeholder | dev/ops | test | Totoal |
