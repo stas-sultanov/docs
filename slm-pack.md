@@ -73,7 +73,7 @@ Small size team: 3 stakeholders, 5 dev/ops, 1 tester.
 | Package Management | | | $4 | $4 | developer | tester | Totoal |
 
 ### Scenario #2
-Mdium size team: 5 stakeholders, 20 developers, 5 testers.
+Mdium size team: 5 stakeholders, 20 dev/ops, 5 testers.
 
 | | stakeholder | dev/ops | test | Totoal |
 |:----|:----|:----|:----|:----|
