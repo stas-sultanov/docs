@@ -1,12 +1,6 @@
 # LITE-RPC Specification
 
-Origin Date:
-
-2010-03-26 (based on the 2009-05-24 version)
-
-Author:
-
-[Stas Sultanov](https://github.com/stas-sultanov)
+Author: [Stas Sultanov](https://github.com/stas-sultanov)
 
 **Table of Contents**
 
@@ -29,12 +23,10 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 L-RPC utilizes the (Strings, Numbers, Booleans, and Null) and two structured types (Objects and Arrays).
 
-All member names exchanged between the Client and the Server that are considered for matching of any kind should be considered to be case-sensitive. The terms function, method, and procedure can be assumed to be interchangeable.
+All member names exchanged between the Client and the Server that are considered for matching of any kind SHOULD be considered to be case-sensitive. The terms function, method, and procedure can be assumed to be interchangeable.
 
 The Client is defined as the origin of Request objects and the handler of Response objects.  
 The Server is defined as the origin of Response objects and the handler of Request objects.  
-
-One implementation of this specification could easily fill both of those roles, even at the same time, to other different clients or the same client. This specification does not address that layer of complexity.
 
 ## 3 Request object
 
@@ -78,28 +70,23 @@ When a rpc call encounters an error, the Response Object MUST contain the error 
 
 ## 5 Examples
 
-Syntax:
+### 5.1 call with positional parameters
 
---\> data sent to Server  
-<\-\- data sent to Client
-
-rpc call with positional parameters:
-
---\> 
+Request:
 ```yaml
 method: QueryList
 params:
     listName: Cars
     id: 100500
 ```
-<\-\-
+Response:
 ```yaml
 error:
     code: 190
     params:
         - PatientNotes
         - Nurse
-    message: 'You are not authorized to access the PatientNotes on behalf of Nurse.'
+    message: 'The list {0} does not exists.'
     traceId: EJplcsCHuLu
 ```
 
