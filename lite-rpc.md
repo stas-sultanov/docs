@@ -51,9 +51,9 @@ When a rpc call is made, the Server MUST reply with a Response. The Response is 
 
 | Field | Type | Optional | Description |
 |:------|:------|:------|:------|
-| error | Object | true | A human-readable description of the error. This member is REQUIRED on error. This member MUST NOT exist if there was no error triggered during invocation. The value for this member MUST be an Object as defined in section 5.1.|
-| id | Integer | true | An identifier of invocation established by the Client This member is REQUIRED.  It MUST be the same as the value of the id member in the Request Object.  If there was an error in detecting the id in the Request object (e.g. Parse error/Invalid Request), it MUST be Null.|
-| result | Object | true | A human-readable description of the error. This member is REQUIRED on success. This member MUST NOT exist if there was an error invoking the method. The value of this member is determined by the method invoked on the Server.|
+| error | Object | true | An Object that contains all the information regarding the errorr ocured.<br/>This member is REQUIRED on error.<br/> This member MUST NOT exist if there was no error triggered during invocation.<br/> The value for this member MUST be an Object as defined in [section 4.1](#error_object).|
+| id | Integer | true | An identifier of invocation established by the Client<br/> This member is REQUIRED.<br/>  It MUST be the same as the value of the id member in the Request Object.  If there was an error in detecting the id in the Request object (e.g. Parse error/Invalid Request), it MUST be Null.|
+| result | Object | true | A human-readable description of the error. This member is REQUIRED on success.<br/> This member MUST NOT exist if there was an error invoking the method.<br/> The value of this member is determined by the method invoked on the Server.|
 
 Either the result member or error member MUST be included, but both members MUST NOT be included.
 
@@ -84,8 +84,7 @@ Response:
 error:
     code: 190
     params:
-        - PatientNotes
-        - Nurse
+        - Cars
     message: 'The list {0} does not exists.'
     traceId: EJplcsCHuLu
 ```
