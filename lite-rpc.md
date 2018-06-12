@@ -37,9 +37,9 @@ A RPC call is represented by sending a **Request** object to a **Server**. The *
 
 | Field | Type | REQUIRED | Description |
 |:------|:------|:------|:------|
-| method | String | *true* | A String containing the name of the method to be invoked. |
-| params | Object | *false* | A Structured value that holds the parameter values to be used during the invocation of the method. |
-| id | Integer | *false* | An identifier of invocation established by the Client The Server MUST reply with the same value in the Response object if included. This member is used to correlate the context between the two objects.|
+| method | String | true | A String containing the name of the method to be invoked. |
+| params | Object | false | A Structured value that holds the parameter values to be used during the invocation of the method. |
+| id | Integer | false | An identifier of invocation established by the Client.<br/>The Server MUST reply with the same value in the **Response** object if included.<br/>This member is used to correlate the context between the two objects.|
 
 ### 3.1 Params object
 
@@ -56,9 +56,9 @@ When a RPC call is made, the **Server** MUST reply with a **Response**. The **Re
 
 | Field | Type | REQUIRED | Description |
 |:------|:------|:------|:------|
-| error | Object | *true* on error | An Object that contains all the information regarding the errorr ocured.<br/><br/> This member MUST NOT exist if there was no error triggered during invocation.<br/> The value for this member MUST be an Object as defined in [section 4.1](#error_object).|
-| id | Integer | *false* | An identifier of invocation established by the Client<br/> This member is REQUIRED.<br/>  It MUST be the same as the value of the id member in the Request Object.  If there was an error in detecting the id in the Request object (e.g. Parse error/Invalid Request), it MUST be Null.|
-| result | Object | *true* on success | A structured value that contains result of the method invoked on the Server.<br/> This member MUST NOT exist if there was an error invoking the method.<br/>|
+| error | Object | true on error | An Object that contains all the information regarding the errorr ocured.<br/>This member MUST NOT exist if there was no error triggered during invocation.<br/>The value for this member MUST be an Object as defined in [section 4.1](#error_object).|
+| id | Integer | false | An identifier of invocation established by the Client.<br/>It MUST be the same as the value of the id member in the **Request** Object.<br/>If there was an error in detecting the id in the Request object (e.g. Parse error/Invalid Request), it MUST be Null.|
+| result | Object | true on success | A structured value that contains result of the method invoked on the Server.<br/>This member MUST NOT exist if there was an error invoking the method. |
 
 Either the result member or error member MUST be included, but both members MUST NOT be included.
 
@@ -68,10 +68,10 @@ When a RPC call encounters an error, the **Response** Object MUST contain the er
 
 | Field | Type | REQUIRED | Description |
 |:------|:------|:------|:------|
-| code | Integer | *true* | An error code. |
-| message | String | *false* | A human-readable description of the error. |
-| params | Array | *false* | An array of arguments to construct localized message. |
-| traceId | String | *true* | A unique identifier of the error that MUST be used for end-to-end traceability. |
+| code | Integer | true | An error code. |
+| message | String | false | A human-readable description of the error. |
+| params | Array | false | An array of arguments to construct localized message. |
+| traceId | String | true | A unique identifier of the error that MUST be used for end-to-end traceability. |
 
 ## 5 Examples
 
