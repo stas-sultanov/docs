@@ -78,8 +78,34 @@ When a RPC call encounters an error, the **Response** Object MUST contain the er
 Request:
 ```yaml
 method: QueryList
+params: [Cars, 100501]
+```
+Response:
+```yaml
+result:
+    name: Mercedes
+```
+
+### 5.2 call with name parameters
+
+Request:
+```yaml
+method: QueryList
+params: {listName: Cars, id: 100502}
+```
+Response:
+```yaml
+result:
+    name: Renault
+```
+
+### 5.3 call with error
+
+Request:
+```yaml
+method: QueryList
 params:
-    listName: Cars
+    listName: Cards
     id: 100500
 ```
 Response:
@@ -87,7 +113,7 @@ Response:
 error:
     code: 190
     params:
-        - Cars
+        - Cards
     message: 'The list {0} does not exists.'
     traceId: EJplcsCHuLu
 ```
