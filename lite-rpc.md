@@ -35,28 +35,30 @@ The **Server** is defined as the origin of **Response** objects and the handler 
 
 A RPC call is represented by sending a **Request** object to a **Server**. The **Request** object has the following members:
 
-| Field | Type | Optional | Description |
+| Field | Type | REQUIRED | Description |
 |:------|:------|:------|:------|
-| method | String | false | A String containing the name of the method to be invoked. |
-| params | Object | true | A Structured value that holds the parameter values to be used during the invocation of the method. |
-| id | Integer | true | An identifier of invocation established by the Client The Server MUST reply with the same value in the Response object if included. This member is used to correlate the context between the two objects.|
+| method | String | *true* | A String containing the name of the method to be invoked. |
+| params | Object | *false* | A Structured value that holds the parameter values to be used during the invocation of the method. |
+| id | Integer | *false* | An identifier of invocation established by the Client The Server MUST reply with the same value in the Response object if included. This member is used to correlate the context between the two objects.|
 
 ### 3.1 Params object
 
 If present, parameters for the RPC call MUST be provided as a Structured value. Either by-position through an Array or by-name through an Object.
 
 *   by-position: params MUST be an Array, containing the values in the Server expected order.
-*   by-name: params MUST be an Object, with member names that match the Server expected parameter names. The absence of expected names MAY result in an error being generated. The names MUST match exactly, including case, to the method's expected parameters.
+*   by-name: params MUST be an Object, with member names that match the Server expected parameter names. The names MUST match exactly, including case, to the method's expected parameters.
+
+The absence of expected mandatory parameter MUST result in an error being generated. 
 
 ## 4 Response object
 
 When a RPC call is made, the **Server** MUST reply with a **Response**. The **Response** is expressed as a single Object, with the following members:
 
-| Field | Type | Optional | Description |
+| Field | Type | REQUIRED | Description |
 |:------|:------|:------|:------|
-| error | Object | true | An Object that contains all the information regarding the errorr ocured.<br/>This member is REQUIRED on error.<br/> This member MUST NOT exist if there was no error triggered during invocation.<br/> The value for this member MUST be an Object as defined in [section 4.1](#error_object).|
-| id | Integer | true | An identifier of invocation established by the Client<br/> This member is REQUIRED.<br/>  It MUST be the same as the value of the id member in the Request Object.  If there was an error in detecting the id in the Request object (e.g. Parse error/Invalid Request), it MUST be Null.|
-| result | Object | true | A human-readable description of the error. This member is REQUIRED on success.<br/> This member MUST NOT exist if there was an error invoking the method.<br/> The value of this member is determined by the method invoked on the Server.|
+| error | Object | *true* on error | An Object that contains all the information regarding the errorr ocured.<br/><br/> This member MUST NOT exist if there was no error triggered during invocation.<br/> The value for this member MUST be an Object as defined in [section 4.1](#error_object).|
+| id | Integer | *false* | An identifier of invocation established by the Client<br/> This member is REQUIRED.<br/>  It MUST be the same as the value of the id member in the Request Object.  If there was an error in detecting the id in the Request object (e.g. Parse error/Invalid Request), it MUST be Null.|
+| result | Object | *true* on success | A structured value that contains result of the method invoked on the Server.<br/> This member MUST NOT exist if there was an error invoking the method.<br/>|
 
 Either the result member or error member MUST be included, but both members MUST NOT be included.
 
@@ -64,12 +66,12 @@ Either the result member or error member MUST be included, but both members MUST
 
 When a RPC call encounters an error, the **Response** Object MUST contain the error member with a value that is a Object with the following members:
 
-| Field | Type | Optional | Description |
+| Field | Type | REQUIRED | Description |
 |:------|:------|:------|:------|
-| code | Integer | false | An error code. |
-| message | String | true | A human-readable description of the error. |
-| params | Array | true | An array of arguments to construct localized message. |
-| traceId | String | false | A unique identifier that should be used for end-to-end traceability. |
+| code | Integer | *true* | An error code. |
+| message | String | *false* | A human-readable description of the error. |
+| params | Array | *false* | An array of arguments to construct localized message. |
+| traceId | String | *true* | A unique identifier of the error that MUST be used for end-to-end traceability. |
 
 ## 5 Examples
 
