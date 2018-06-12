@@ -14,8 +14,10 @@ Author: [Stas Sultanov](https://github.com/stas-sultanov)
 
 ## 1 Overview
 
-L-RPC is a light-weight remote procedure call (RPC) protocol.
-It is transport and format agnostic in that the concepts can be used within the same process, over sockets, over http, and utilize any format like JSON, YAML, XML. Primarily this specification defines basic data structures and the rules around their processing.
+L-RPC is a light-weight remote procedure call (**RPC**) protocol.
+It is transport and format agnostic in that the concepts can be used within the same process, over sockets or http, and utilize any format like JSON, YAML, XML.
+
+Primarily this specification defines basic data structures and the rules around their processing.
 
 ## 2 Conventions
 
@@ -23,14 +25,14 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 L-RPC utilizes the (Strings, Numbers, Booleans, and Null) and two structured types (Objects and Arrays).
 
-All member names exchanged between the Client and the Server that are considered for matching of any kind SHOULD be considered to be case-sensitive. The terms function, method, and procedure can be assumed to be interchangeable.
+All member names exchanged between the Client and the Server that are considered for matching of any kind SHOULD be considered to be case-sensitive. The terms *function*, *method*, and *procedure* can be assumed to be interchangeable.
 
-The Client is defined as the origin of Request objects and the handler of Response objects.  
-The Server is defined as the origin of Response objects and the handler of Request objects.  
+The **Client** is defined as the origin of Request objects and the handler of **Response** objects.  
+The **Server** is defined as the origin of Response objects and the handler of **Request** objects.  
 
 ## 3 Request object
 
-A rpc call is represented by sending a Request object to a Server. The Request object has the following members:
+A RPC call is represented by sending a **Request** object to a **Server**. The **Request** object has the following members:
 
 | Field | Type | Optional | Description |
 |:------|:------|:------|:------|
@@ -40,14 +42,14 @@ A rpc call is represented by sending a Request object to a Server. The Request o
 
 ### 3.1 Params object
 
-If present, parameters for the rpc call MUST be provided as a Structured value. Either by-position through an Array or by-name through an Object.
+If present, parameters for the RPC call MUST be provided as a Structured value. Either by-position through an Array or by-name through an Object.
 
 *   by-position: params MUST be an Array, containing the values in the Server expected order.
 *   by-name: params MUST be an Object, with member names that match the Server expected parameter names. The absence of expected names MAY result in an error being generated. The names MUST match exactly, including case, to the method's expected parameters.
 
 ## 4 Response object
 
-When a rpc call is made, the Server MUST reply with a Response. The Response is expressed as a single Object, with the following members:
+When a RPC call is made, the **Server** MUST reply with a **Response**. The **Response** is expressed as a single Object, with the following members:
 
 | Field | Type | Optional | Description |
 |:------|:------|:------|:------|
@@ -59,14 +61,14 @@ Either the result member or error member MUST be included, but both members MUST
 
 ### 4.1 Error object
 
-When a rpc call encounters an error, the Response Object MUST contain the error member with a value that is a Object with the following members:
+When a RPC call encounters an error, the **Response** Object MUST contain the error member with a value that is a Object with the following members:
 
 | Field | Type | Optional | Description |
 |:------|:------|:------|:------|
 | code | Integer | false | An error code. |
 | message | String | true | A human-readable description of the error. |
 | params | Array | true | An array of arguments to construct localized message. |
-| traceId | String | false | A unique identifier Internal that should be used for communication with support. |
+| traceId | String | false | A unique identifier that should be used for end-to-end traceability. |
 
 ## 5 Examples
 
