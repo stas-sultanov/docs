@@ -28,8 +28,8 @@ L-RPC utilizes the (Strings, Numbers, Booleans, and Null) and two structured typ
 
 All member names exchanged between the Client and the Server that are considered for matching of any kind SHOULD be considered to be case-sensitive. The terms *function*, *method*, and *procedure* can be assumed to be interchangeable.
 
-The **Client** is defined as the origin of Request objects and the handler of **Response** objects.  
-The **Server** is defined as the origin of Response objects and the handler of **Request** objects.  
+The **Client** is defined as the origin of **Request** objects and the handler of **Response** objects.  
+The **Server** is defined as the origin of **Response** objects and the handler of **Request** objects.  
 
 ## 3 Request object
 
