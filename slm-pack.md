@@ -38,7 +38,7 @@ Following table compares options by cost per month
 | | Option A | | Option M | |
 |:--|:----|:--|:----|:--|
 | Area | Product | Cost | Tool | Cost |
-| Knowledge Sharing | [Atlassian Confluence](https://www.atlassian.com/software/confluence) |\<10 users: $10<br/>\>10 users: [$5/user](https://www.atlassian.com/software/confluence/pricing) | [Wiki](https://www.visualstudio.com/team-services/wiki/) |free: 5 users<br/>extra: [$3/user](https://marketplace.visualstudio.com/items?itemName=ms.vss-vstsuser#pricing)|
+| Knowledge Sharing | [Atlassian Confluence](https://www.atlassian.com/software/confluence) |\<10 users: $10<br/>\>10 users: [$5/user](https://www.atlassian.com/software/confluence/pricing) | [Wiki](https://www.visualstudio.com/team-services/wiki/) |free: 5 users<br/>extra: [$6/user](https://marketplace.visualstudio.com/items?itemName=ms.vss-vstsuser#pricing)|
 | Requirements Management | [Atlassian Jira](https://jira.atlassian.com/) |\<10 users: $10<br/>\>10 users: [$7/user](https://www.atlassian.com/software/jira/pricing) | [Agile Tools](https://www.visualstudio.com/team-services/agile-tools/) | Included |
 | Source Control | [Atlassian Bitbucket](https://www.atlassian.com/software/bitbucket) |\<5 users: free<br/>\>5 users: [$5/user](https://www.atlassian.com/software/bitbucket/pricing?tab=cloud)| [Git](https://www.visualstudio.com/team-services/git/) | Included |
 | Build & Release | [Jenkins](https://jenkins.io/) | \*1 | [CI & CD](https://www.visualstudio.com/team-services/continuous-integration/) | free: 240min<br/>extra: [$40/pipe](https://marketplace.visualstudio.com/items?itemName=ms.build-release-hosted-pipelines#pricing) |
@@ -68,8 +68,8 @@ Small size team: 3 stakeholders, 5 dev/op, 1 tester.
 | Jira | $30 | $50 | $10 | $90 |
 | Bitbucket | | $25 | $5 | $30 |
 | TestRail | | $125 | $25 | $150 |
-| **Option M** | | | | **$57** |
-| Wiki & Agile Tools | | | $5 | $5 |
+| **Option M** | | | | **$58** |
+| Wiki & Agile Tools | | | $6 | $6 |
 | Source Control | | | Included | $0 |
 | Test | | | $52 | $52 |
 
