@@ -16,7 +16,7 @@ Author: [Stas Sultanov](https://github.com/stas-sultanov)
 
 L-RPC is a light-weight remote procedure call (**RPC**) protocol.
 It is transport, state and format agnostic.
-In that the concepts can be used to create state or stateful API with any protocol TCP or HTTP and utilize any format like JSON, YAML, XML.
+In that the concepts can be used to create stateless or stateful API with any protocol TCP or HTTP and utilize any format like JSON, YAML, XML.
 
 Primarily this specification defines basic data structures and the rules around their processing.
 
