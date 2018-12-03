@@ -1,12 +1,10 @@
-# Stas Sultanov
-## Cloud Solutions Architect
-
-| [./media/image1.JPG](./media/image1.JPG) | Stas Sultanov **Cloud Solutions Architect**  [google](https://www.google.com/search?q=stas+sultanov)[google](https://www.google.com/search?q=stas+sultanov) |
-|------------------------------------------|------------------------------------------------------------------------------------------------------|
-[GitHub](https://github.com/stas-sultanov)
-[LinkedIn](https://www.linkedin.com/in/stas-sultanov)
-[NuGet](https://www.nuget.org/profiles/stas.sultanov)
-[Google](https://www.google.com/search?q=stas+sultanov)
+<table align="center" style="border: 0px;">
+    <tr>  
+        <td align="left"><h2>Stas Sultanov</h2><br><h3>Cloud Solutions Architect</h3><a href=https://github.com/stas-sultanov>GitHub</a><br><a href=https://www.linkedin.com/in/stas-sultanov>LinkedIn</a><br><a href=https://www.nuget.org/profiles/stas.sultanov>NuGet</a><br>
+			<a href=https://www.google.com/search?q=stas+sultanov>Google</a></td>
+			 <td align="right"><img src="https://avatars3.githubusercontent.com/u/6907759?s=200&v=4" alt="Stas Photo"></td>
+    </tr>
+</table>
 
 #### Summary
 - Over 14 years of professional experience in the IT industry
@@ -19,7 +17,7 @@
 - Active IT conferences participation as speaker
 
 #### Education
-- Master’s degree in computer science, Admiral Makarov National University of Shipbuilding, Ukraine 2000 - 2006
+- Master’s degree in computer science, Admiral Makarov National University of Shipbuilding, Ukraine
 
 #### Certification
 - Microsoft Certified Professional Developer
@@ -56,7 +54,7 @@ Working as Cloud Solutions Architect at **DataArt** I have participated in the f
 | Customer                     | RU based startup that operates in Finance Industry
 | Description                  | A system that provides a Proof-of-Asset protocol (PoA) that is a standard that enables new generation of assets and contracts called Decentralized capital markets. Internet of Assets (IoA) on the principles of Bank-as-a-Service (BaaS), powered by Internet of Things (IoT) and Artificial Intelligence (AI) technologies. PoA protocol is open for 3rd party fintech providers, AI and IOT labs, traditional financial institutions and asset owners.
 | Role                         | Cloud Solutions Architect & DevOps Engineer
-| Activities                   | Define enterprise cloud strategies.<br>Design and implement cloud infrastructure.<br>Implement DevOps practices.
+| Activities                   | Define enterprise cloud strategies<br>Design and implement cloud infrastructure<br>Implement DevOps practices
 | Systems                      | Microsoft Azure, Visual Studio Team Services, GitHub
 | Cloud Services               | Blockchain as a Service, Device Hive, SQL Database, App Insights, Web App for Containers, Docker
 
@@ -66,7 +64,7 @@ Working as Cloud Solutions Architect at **DataArt** I have participated in the f
 | Customer                     | UK based company that operates in Healthcare Industry
 | Description                  | A client-oriented system that lets use the online services for healthcare practices. These may include arranging appointments, repeat medication, secure messages, medical record and updating details
 | Role                         | Cloud Solutions Architect & DevOps Engineer
-| Activities                   | Define enterprise cloud strategies.<br>Identifying motivators for cloud adoption and unlocking Enterprise challenges.<br>Cost/Benefit modeling and creating compelling business cases for migration.<br>Advising and implementing best Azure practices.<br>Implementing DevOps practices such as IaC, CI and automated deployment.
+| Activities                   | Define enterprise cloud strategies<br>Identifying motivators for cloud adoption and unlocking Enterprise challenges<br>Cost/Benefit modeling and creating compelling business cases for migration<br>Advising and implementing best Azure practices<br>Implementing DevOps practices such as IaC, CI and automated deployment.
 | Systems                      | Microsoft Azure, Visual Studio Team Services, Mobile Center, TeamCity
 | Cloud Services               | Key Vault, Virtual Network, Virtual Network Gateway, Network Interface, Virtual Machine, Virtual Machine Scale Sets, Public Ip addresses, App Service, Storage, SQL Database, App Insights, App Service \\ Web Apps \\ Api Apps
 
@@ -75,7 +73,7 @@ Working as Cloud Solutions Architect at **DataArt** I have participated in the f
 | Customer                     | US based company that operates in Healthcare Industry
 | Description                  | A system that helps health providers effectively integrate and utilize lifestyle health data to prevent chronic disease
 | Role                         | Cloud Solutions Architect & DevOps Engineer
-| Activities                   | Define enterprise cloud strategies.<br>Design and implement cloud infrastructure.<br>Implement DevOps practices.
+| Activities                   | Define enterprise cloud strategies<br>Design and implement cloud infrastructure<br>Implement DevOps practices
 | Systems                      | Microsoft Azure, Visual Studio Team Services
 | Cloud Services               | Key Vault, App Service, Storage, SQL Database, App Insights, App Service \\ Web Apps \\ Api Apps
 
@@ -84,18 +82,19 @@ Working as Cloud Solutions Architect at **DataArt** I have participated in the f
 |:-----------------------------|:---------------------------------------------------
 | Customer                     | US based company that operates in Healthcare Industry
 | Description                  | A system that utilizes data and technology to enable more efficient trial conduct, looking at ways to reduce the size of the trials, provide greater clarity into the effect of the drug, and to reduce the amount of complexity in the trial.
+| Role                         | Cloud Solutions Architect & DevOps Engineer
+| Activities                   | Define enterprise cloud strategies<br>Identifying motivators for cloud adoption and unlocking Enterprise challenges<br>Cost/Benefit modeling and creating compelling business cases for migration<br>Advising and implementing best Azure practices<br>Implementing DevOps practices such as IaC, CI and automated deployment
 | Systems                      | Microsoft Azure, Microsoft TFS
 | Cloud Services               | Key Vault, Virtual Network, Virtual Network Gateway, Network Interface, Virtual Machine, Virtual Machine Scale Sets, Public Ip addresses, App Service Environment, Storage, SQL Database, App Insights, Web Apps \\ Api Apps
-| Tasks                        | I was performing / responsible for following tasks**:**
 
 #### Services & Tools
 
-| | |
-|:----------------------------------------|:----------------------------------------------------------------------|
-| **Cloud providers**                     | Microsoft Azure                                                       |
-| **Configuration management tools**      | Microsoft Azure Resource Manager, PowerShell DSC                      |
-| **Solution Lifecycle Management packs** | Microsoft Azure DevOps Microsoft Team Foundation Server (TFS)         |
-| **Collaboration tools**                 | Microsoft Office 365                                                  |
-| **Programming and scripting languages** | .NET via C\#, PowerShell                                              |
-| **Databases and data storages**         | Microsoft SQL Server Azure SQL Database Azure Cosmos DB Azure Storage |
-| **Operating systems:**                  | Microsoft Windows                                                     |
+| List | |
+|:------------------------------------|:----------------------------------------------------------------------|
+| Cloud providers                     | Microsoft Azure
+| Configuration management tools      | Microsoft Azure Resource Manager, PowerShell DSC
+| Solution Lifecycle Management packs | Microsoft Azure DevOps
+| Collaboration tools                 | Microsoft Office 365
+| Programming and scripting languages | .NET via C\#, PowerShell
+| Databases and data storages         | Microsoft SQL Server Azure SQL Database Azure Cosmos DB Azure Storage
+| Operating systems                   | Microsoft Windows
