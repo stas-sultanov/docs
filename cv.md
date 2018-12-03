@@ -2,7 +2,7 @@
     <tr style="border: 0px;">  
         <td align="left" style="border: 0px;"><h2>Stas Sultanov</h2><br><h3>Cloud Solutions Architect</h3><a href=https://github.com/stas-sultanov>GitHub</a><br><a href=https://www.linkedin.com/in/stas-sultanov>LinkedIn</a><br><a href=https://www.nuget.org/profiles/stas.sultanov>NuGet</a><br>
 			<a href=https://www.google.com/search?q=stas+sultanov>Google</a></td>
-	<td align="right" style="border: 0px;"><img src="https://avatars3.githubusercontent.com/u/6907759?s=200&v=4" alt="Stas Photo"></td>
+	<td align="right|top" style="float:right;margin-left: 208px;"><img src="https://avatars3.githubusercontent.com/u/6907759?s=200&v=4" alt="Stas Photo"></td>
     </tr>
 </table>
 
