@@ -1,8 +1,12 @@
 # Stas Sultanov
 ## Cloud Solutions Architect
 
-| [./media/image1.JPG](./media/image1.JPG) | Stas Sultanov **Cloud Solutions Architect**  [google](https://www.google.com/search?q=Stas+sultanov) |
+| [./media/image1.JPG](./media/image1.JPG) | Stas Sultanov **Cloud Solutions Architect**  [google](https://www.google.com/search?q=stas+sultanov)[google](https://www.google.com/search?q=stas+sultanov) |
 |------------------------------------------|------------------------------------------------------------------------------------------------------|
+[GitHub](https://github.com/stas-sultanov)
+[LinkedIn](https://www.linkedin.com/in/stas-sultanov)
+[NuGet](https://www.nuget.org/profiles/stas.sultanov)
+[Google](https://www.google.com/search?q=stas+sultanov)
 
 #### Summary
 - Over 14 years of professional experience in the IT industry
