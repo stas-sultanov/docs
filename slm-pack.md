@@ -45,17 +45,16 @@ Following table compares options by cost per month
 | Artifacts | [NuGet Server](https://docs.microsoft.com/en-us/nuget/hosting-packages/nuget-server) | \*1 |[Artifacts](https://azure.microsoft.com/en-us/services/devops/artifacts/) | free: 5 users<br/>extra: [$4/user](https://marketplace.visualstudio.com/items?itemName=ms.feed#pricing) |
 | Symbols Server |  | \*1 | [Artifacts](https://azure.microsoft.com/en-us/services/devops/artifacts/) | Included |
 | Test | [Gurock TestRail](http://www.gurock.com/testrail/) | [$30/user](http://www.gurock.com/testrail/pricing/cloud/) | [Test Plans](https://azure.microsoft.com/en-us/services/devops/test-plans/) | [$52/user](https://marketplace.visualstudio.com/items?itemName=ms.vss-testmanager-web#pricing) |
-| Test Performance | [Load Impact](https://loadimpact.com/) | [$300](https://loadimpact.com/pricing) | [Load Tests (VUMS)](https://www.visualstudio.com/team-services/cloud-load-testing/) | free: 20k<br/>extra: [$36/100k](https://docs.microsoft.com/en-us/vsts/billing/buy-load-testing-vs#_buy-load-testing) \*2 |
+| Test Load | [Load Impact](https://loadimpact.com/) | [$300](https://loadimpact.com/pricing) | [Test Plans](https://marketplace.visualstudio.com/items?itemName=ms.vss-testmanager-web#pricing) | free: 20k<br/>extra: [$36/100k](https://docs.microsoft.com/en-us/vsts/billing/buy-load-testing-vs#_buy-load-testing) |
 
 \*1 requires additional infrastructure, setup, provision and maintainance.
-
-\*2 is charged by consumption.
 
 ## Use scenarios
 In order to give understending about aproximate cost of ownership, this section provides several use-case scenarios.
 * Stakeholders are operating with requirements only.
 * Performance tests, Build & Release agents and Package Management are not included.
 * Cost of **Option M** may be reduced if users have [Visual Studio Subscriptions](https://www.visualstudio.com/vs/pricing/).
+* Cost to setup and maintan **Opnios A** is not included.
 
 ### Scenario 1
 Small size team: 3 stakeholders, 5 dev/op, 1 tester.
@@ -67,10 +66,10 @@ Small size team: 3 stakeholders, 5 dev/op, 1 tester.
 | Confluence | | | | $10 | 
 | Jira | $30 | $50 | $10 | $90 |
 | Bitbucket | | $25 | $5 | $30 |
-| TestRail | | $125 | $25 | $150 |
+| TestRail | | $150 | $50 | $180 |
 | **Option M** | | | | **$58** |
-| Wiki & Agile Tools | | | $6 | $6 |
-| Source Control | | | Included | $0 |
+| Wiki & Boards | | | $6 | $6 |
+| Repos | | | Included | $0 |
 | Test | | | $52 | $52 |
 
 ### Scenario 2
@@ -85,6 +84,6 @@ Medium size team: 5 stakeholders, 20 dev/op, 5 testers.
 | Bitbucket | | $100 | $25 | $125 |
 | TestRail | | | | $600 |
 | **Option M** | | | | **$410** |
-| Wiki & Agile Tools | | $150 | Included | $150 |
-| Source Control | | Included | Included | $0 |
+| Wiki & Boards | | $150 | Included | $150 |
+| Repos | | Included | Included | $0 |
 | Test | | | $260 | $260 |
