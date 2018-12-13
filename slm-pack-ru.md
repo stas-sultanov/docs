@@ -1,46 +1,48 @@
-# Выбор средств обеспечения жизненого цикла решений
+## Выбор средств обеспечения жизненого цикла решений
 
-'''
-Жизненный цикл решения - 
-совокупность стадий развития, которые проходит фирма за период своего существования.
-'''
+> Жизненный цикл решения - совокупность стадий развития, которые проходит решение за период своего существования начиная от момента возникновения идеи до утилизации.
 
 Все привет! Меня зовут Стас и по долгу службы мне часто приходится иницировать старт проектов.
-Одним из первых вопросов возникающих при запуске проекта является выбор средств обеспечения жизненого цикла решения. То есть какие именно средства разработчики 
-Так же часто возникает вопрос о изменении
+Одним из первых вопросов возникающих при запуске проекта является выбор средств обеспечения жизненого цикла решения. То есть какие именно средства разработчики будут использовать.
+Стоит отметить, что так-же довольно часто приходится присоеднеится к уже идущему проекту который старотовали на чем было и возникает вопрос о изменении средств.
 
 Для обеспечения жизненого цикла необходимо иметь ряд утелит ответсвенных за разные зоны
+Минимальный набор выглядит следующим образом
+Знания например Wiki, Управление требованиями Kanban board, Репозиторий git, Система сборки и управления выпусками (piplines), Тестирование (функциональное и нагрузочное). 
+По хорошему еще нужна
+- IDE интегрирвоанная со всеми системами
+- Система мониторинга и предиктивной аналитики
+- Система сбора 
 
-Знания, Управление требованиями, Репозиторий, Система сборки и управления выпусками, Тестирование (функциональное и нагрузочное) 
-
-В общем, есть 2 варианта получения этого инструмента:
+В общем, есть 2 варианта получения этого набора сервисов:
 
 * собрать из разных инструментов от разных поставщиков.
 * использовать пакет от одного поставщика.
 
-Это как будто вам нужна машина, чтобы ездить, и вы можете взять ее в аренду и ездить сразу, или вы можете купить запчасти и собрать из них папелац.
+Это как будто вам нужна машина, чтобы ездить, и вы можете взять ее купить или взять в аренду и ездить сразу, или вы можете купить запчасти и собрать из них папелац.
 
 Текущий документ пытается подробно описать плюсы и минусы обоих подходов.
 
 Прежде всего, давайте посмотрим на возможные варианты:
+Естественно что на рынке существует огромное количество сервисов 
+В данной статье я рассматривается именно те и в той комбинации которые мне больше всего встречались по ходу работы. 
 
-* Вариант ** A - ** на основе Atlassian, так как он принимает ** как минимум 3 различных продукта ** от [Atlassian] (https://www.atlassian.com/).
-* Опция ** M - M ** на базе Microsoft, так как это ** только 1 продукт ** от Microsoft с именем [Azure DevOps] (https://azure.microsoft.com/en-us/services/devops).
+* Вариант A - на основе Atlassian, так как он принимает ** как минимум 3 различных продукта ** от [Atlassian] (https://www.atlassian.com/) иногда Atlassian Stack.
+* Опция ** M - M ** на базе Microsoft, так как это ** только 1 продукт ** от Microsoft с именем [Azure DevOps] (https://azure.microsoft.com/en-us/services/devops). До недавнего времени являлся одним продуктом Visual Studio Team Services.
 
-## Compare by aspects
+### Сравнение по аспектам
 
 Following table compares options by different aspects
 
-| | Area | Option A | | Option M | |
-|:--|:----|:------|:--|:------|:--|
-| 1 | Cost & Payment |- Purchases from each vendor of each service are separate.<br/>- **Separate invoices** at the end of the month.<br/>- Total **cost** of ownership is **greater** than all-in-one solutions.| - |- All services are purchased from one vendor as pack.<br/>- **One invoice** at the end of the month.<br/>- Total **cost** of ownership is **less** than separate systems.| + |
-| 2 | Legal | It is required to accept **different policies** from **each vendor**. | - | It is required to accept **one policy** from **only one vendor**. | + |
-| 3 | Security & Compliance | [Atlassian has achieved following certificates for some cloud services:](https://www.atlassian.com/trust/compliance)<br/>- GDPR<br/>- ISO 27001<br/>- SOC 2 Type 1<br/>- CSA STAR Level 1|-| [Microsoft has achieved following list of certificates for Azure DevOps:](https://docs.microsoft.com/en-us/azure/devops/articles/team-services-security-whitepaper?view=vsts#compliance-certifications)<br/>- GDPR<br/>-  ISO 27001:2013<br/>-  SOC 1 Type 2 and SOC 2 Type 2<br/>-  HIPAA<br/>-  BAA<br/>-  EU Model Clauses| + |
-| 4 | Identity & Access Management | Requires **separate** management of each user for each system.  Integration of some products with Identity Service is available for **additional cost.** | - | Integrated with Azure Active Directory and has [B2B Collaboration](https://docs.microsoft.com/en-us/azure/active-directory/b2b/what-is-b2b) **out of the box**. | + |
-| 5 | Service Management | While most of the services are managed (hosted in the cloud) some services like Jenkins **requires additional infrastructure**, setup and provision. | - | Is **completely managed** service. | + |
-| 6 | [Requirements Traceability](https://en.wikipedia.org/wiki/Requirements_traceability) | **Requires purchase** of additional plugins and investment on integartion. | - | Provided **out of the box.** | + |
-| 7 | IDE | **Requires additional** plugins. | - | Provides **out of the box** integration within the Visual Studio IDE. | + |
-| 8 | Adoption | **Some products** are used already. | + | It may require to educate **some people.** | - |
+| Area | Вариант A | Вариант M |
+|:-----|:----------|:----------|
+| Цена и Оплата |- Отдельная покупка каждого сервиса у разных поставщиков.<br/> - Отдельные счета-фактуры в конце месяца.<br/> - Совокупная стоимость владения **больше**, чем решение 'все в одном'.| - Все услуги приобретаются у одного поставщика в виде пакета.<br/> - **Один счет-фактура** в конец месяца.<br/> - Совокупная стоимость владения **меньше**, чем у отдельных систем.|
+| Юридический | Требуется принять **различные политики** от каждого поставщика. | Требуется принять только **одну политику** от одного поставщика. | + |
+| Аутентификация и управление доступом | Требуется ** отдельное ** управление каждым пользователем для каждой системы. Интеграция некоторых продуктов с централизированной системой аутентификации доступна за **дополнительную плату**. | Интегрирован с Azure Active Directory и имеет [B2B Collaboration] (https://docs.microsoft.com/en-us/azure/active-directory/b2b/what-is-b2b) **из коробки**. |
+| Service Management | While most of the services are managed (hosted in the cloud) some services like Jenkins **requires additional infrastructure**, setup and provision. | - | Is **completely managed** service. | + |
+| [Requirements Traceability](https://en.wikipedia.org/wiki/Requirements_traceability) | **Requires purchase** of additional plugins and investment on integartion. | - | Provided **out of the box.** | + |
+| IDE | **Requires additional** plugins. | - | Provides **out of the box** integration within the Visual Studio IDE. | + |
+| Adoption | **Some products** are used already. | + | It may require to educate **some people.** | - |
 | **Total** | | | **1** | | **7** |
 
 ## Compare by cost
