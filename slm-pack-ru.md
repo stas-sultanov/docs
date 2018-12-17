@@ -100,7 +100,7 @@
 Следующая таблица описывает какие конкретно средства и по какой стоимости в месяц входят
 | Area                    | Option A Tool | Cost | Option M Tool | Cost
 |:------------------------|:--------------|:-----|:--------------|:----
-| Auth                    |               |      | [Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/) | free: basic<br/>extra: [$1/user](https://azure.microsoft.com/en-us/pricing/details/active-directory/)
+| Auth                    | [G Suit](https://confluence.atlassian.com/cloud/security-with-g-suite-938859740.html) |      | [Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/) | free: basic<br/>extra: [$1/user](https://azure.microsoft.com/en-us/pricing/details/active-directory/)
 | Knowledge Sharing       | [Atlassian Confluence](https://www.atlassian.com/software/confluence) |\<10 users: $10<br/>\>10 users: [$5/user](https://www.atlassian.com/software/confluence/pricing) | [Wiki](https://azure.microsoft.com/en-us/services/devops/wiki/) |free: 5 users<br/>extra: [$6/user](https://marketplace.visualstudio.com/items?itemName=ms.vss-vstsuser#pricing)
 | Requirements Management | [Atlassian Jira](https://jira.atlassian.com/) |\<10 users: $10<br/>\>10 users: [$7/user](https://www.atlassian.com/software/jira/pricing) | [Boards](https://azure.microsoft.com/en-us/services/devops/boards/) | Included
 | Repos                   | [Atlassian Bitbucket](https://www.atlassian.com/software/bitbucket) |\<5 users: free<br/>\>5 users: [$5/user](https://www.atlassian.com/software/bitbucket/pricing?tab=cloud)| [Repos](https://azure.microsoft.com/en-us/services/devops/repos/) | Included
@@ -121,7 +121,7 @@
 |:-----|:----------|:----------|
 | Price & Payment |- Отдельная покупка каждого сервиса у разных поставщиков.<br/> - Отдельные счета-фактуры в конце месяца.<br/> - Совокупная стоимость владения **больше**, чем решение 'все в одном'.| - Все услуги приобретаются у одного поставщика в виде пакета.<br/> - **Один счет-фактура** в конец месяца.<br/> - Совокупная стоимость владения **меньше**, чем у отдельных систем.
 | Legal | Требуется принять **различные политики** от каждого поставщика. | Требуется принять только **одну политику** от одного поставщика.
-| Authentication and Authorization | Требуется **отдельное** управление каждым пользователем для каждой системы. Интеграция некоторых продуктов с централизированной системой аутентификации доступна за **дополнительную плату**. | Интегрирован с Azure Active Directory и имеет [B2B Collaboration](https://docs.microsoft.com/en-us/azure/active-directory/b2b/what-is-b2b) **из коробки**.
+| Auth | Интеграция продуктов с централизированной системой аутентификации требует дополнительных затрат. | Интегрирован с Azure Active Directory и имеет [B2B Collaboration](https://docs.microsoft.com/en-us/azure/active-directory/b2b/what-is-b2b) **из коробки**.
 | Service Management | While most of the services are managed (hosted in the cloud) some services like Jenkins **requires additional infrastructure**, setup and provision. | - | Is **completely managed** service.
 | [Requirements Traceability](https://en.wikipedia.org/wiki/Requirements_traceability) | **Requires purchase** of additional plugins and investment on integartion. | - | Provided **out of the box.**
 | IDE | **Requires additional** plugins. | Provides **out of the box** integration within the Visual Studio IDE.
@@ -130,6 +130,7 @@
 ## Сценарии использования
 
 In order to give understending about aproximate cost of ownership, this section provides several use-case scenarios.
+
 * Stakeholders are operating with requirements only.
 * Performance tests, Build & Release agents and Package Management are not included.
 * Cost of **Option M** may be reduced if users have [Visual Studio Subscriptions](https://www.visualstudio.com/vs/pricing/).
