@@ -51,30 +51,37 @@
 
 И так рассмотрим следующие варианты размещения:
 
-1. Размещение на строрне исполнителя
-    - **Плюс :**
-        - Некоторые инструменты могут быть уже развернуты и настроены.
-    - **Минус :**
-        - Крайне редки случаи когда все инструменты есть на стороне исполнителя.
-        - Затраты на лицензирование закладываются в стоиомсть услуг и опалта возлагается на исполнителя.
-        - Требуется организовать доуступ членам команды со стороны заказчика к инфраструткре, сервисам и система которые на стороне исполнителя.
-        - Требуется обязательно заложить процесс передачи артефактов на сторону заказчика, а по хорошему это требует наличия идентичного набора развернутых сервисов на стороне клиента. Вариант "Мы все сэкспортируемв текстовые файлы и отправи заказчику архив" явно ниже плинтуса уровня услуг.
-        - Требуются затраты на поддержку и обновление ПО и железа.
-2. Размещение на строрне заказчика
-    - **Плюс :**
-        - Нет необходиомсти передавать артфакты.
-        - Клиент сам платит за лицензии.
-    - **Минус :**
-        - Крайне редки случаи когда все инструменты есть на стороне клиента.
-        - Будьте готовы к проблемам с получением доступа к инфраструктуре, системам и сервисам.
+***Размещение на строрне исполнителя***
+
+* **Плюс :**
+    - Некоторые инструменты могут быть уже развернуты и настроены.
+* **Минус :**
+    - Крайне редки случаи когда все инструменты есть на стороне исполнителя.
+    - Затраты на лицензирование закладываются в стоиомсть услуг и опалта возлагается на исполнителя.
+    - Требуется организовать доуступ членам команды со стороны заказчика к инфраструткре, сервисам и система которые на стороне исполнителя.
+    - Требуется обязательно заложить процесс передачи артефактов на сторону заказчика, а по хорошему это требует наличия идентичного набора развернутых сервисов на стороне клиента. Вариант "Мы все сэкспортируемв текстовые файлы и отправи заказчику архив" явно ниже плинтуса уровня услуг.
     - Требуются затраты на поддержку и обновление ПО и железа.
-3. Размещение на третьей стороне
-    - **Плюс :**
-        - Все артефакты принадлежат клиенту через договор окзания услуг с третьим лицом
-    - **Минус :**
-        - Возможны случаи паранои с обеих сторон.
-4. Смешанные варианты
-    - Естественно не исключины смешанные варианты но как правило они обладают минусами всех выше перечисленных вариантов.
+
+***Размещение на строрне заказчика***
+
+* **Плюс :**
+    * Нет необходиомсти передавать артфакты.
+    * Клиент сам платит за лицензии.
+* **Минус :**
+    * Крайне редки случаи когда все инструменты есть на стороне клиента.
+    * Будьте готовы к проблемам с получением доступа к инфраструктуре, системам и сервисам.
+    * Требуются затраты на поддержку и обновление ПО и железа.
+
+***Размещение на третьей стороне, как сервис.***
+
+* **Плюс :**
+    * Все артефакты принадлежат клиенту через договор окзания услуг с третьим лицом
+* **Минус :**
+    * Возможны случаи паранои с обеих сторон.
+
+***Смешанные варианты:*** Естественно не исключины смешанные варианты но как правило они обладают минусами всех выше перечисленных вариантов.
+
+Лично я всегда стараюсь продвинуть вариант размещения на третье стороне и только в исключитьельных ситуациях размещение на стороне клиента.
 
 ## Средства
 
@@ -85,35 +92,26 @@
 
 Это какбудто вам нужна машина, чтобы ездить, и вы можете взять ее купить или взять в аренду и ездить сразу, или вы можете купить запчасти и собрать из них папелац.
 
-Естественно что на рынке существует огромное количество предложений,
-в данной статье я рассматривается именно те и в той комбинации которые мне больше всего встречались по ходу работы.
-
-* Вариант A - на основе сервисов и продуктов компании [Atlassian](https://www.atlassian.com/), иногда упоминается Atlassian Stack.
+* Вариант A - на основе сервисов и продуктов компании [Atlassian](https://www.atlassian.com/), a упоминается Atlassian Stack.
 * Вариант M - на базе сервисов и продуктов Microsoft, в основе которого пакет сеовисов [Azure DevOps](https://azure.microsoft.com/en-us/services/devops). До недавнего времени являлся одним продуктом Visual Studio Team Services.
 
-
-## Сравнение по цене
-
-|                         | Option A |      | Option M |      |
-|:------------------------|:---------|:-----|:---------|:-----|
-| Area                    | Product  | Cost | Tool     | Cost |
-| Knowledge Sharing       | [Atlassian Confluence](https://www.atlassian.com/software/confluence) |\<10 users: $10<br/>\>10 users: [$5/user](https://www.atlassian.com/software/confluence/pricing) | [Wiki](https://azure.microsoft.com/en-us/services/devops/wiki/) |free: 5 users<br/>extra: [$6/user](https://marketplace.visualstudio.com/items?itemName=ms.vss-vstsuser#pricing)|
-| Requirements Management | [Atlassian Jira](https://jira.atlassian.com/) |\<10 users: $10<br/>\>10 users: [$7/user](https://www.atlassian.com/software/jira/pricing) | [Boards](https://azure.microsoft.com/en-us/services/devops/boards/) | Included |
-| Repos                   | [Atlassian Bitbucket](https://www.atlassian.com/software/bitbucket) |\<5 users: free<br/>\>5 users: [$5/user](https://www.atlassian.com/software/bitbucket/pricing?tab=cloud)| [Repos](https://azure.microsoft.com/en-us/services/devops/repos/) | Included |
-| Pipelines               | [Jenkins](https://jenkins.io/) | \*1 | [Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines/) | free: 1<br/>extra: [$40/pipe](https://marketplace.visualstudio.com/items?itemName=ms.build-release-hosted-pipelines#pricing) |
-| Artifacts               | [NuGet Server](https://docs.microsoft.com/en-us/nuget/hosting-packages/nuget-server) | \*1 |[Artifacts](https://azure.microsoft.com/en-us/services/devops/artifacts/) | free: 5 users<br/>extra: [$4/user](https://marketplace.visualstudio.com/items?itemName=ms.feed#pricing) |
-| Symbols Server          |  | \*1 | [Artifacts](https://azure.microsoft.com/en-us/services/devops/artifacts/) | Included |
-| Test                    | [Gurock TestRail](http://www.gurock.com/testrail/) | [$30/user](http://www.gurock.com/testrail/pricing/cloud/) | [Test Plans](https://azure.microsoft.com/en-us/services/devops/test-plans/) | [$52/user](https://marketplace.visualstudio.com/items?itemName=ms.vss-testmanager-web#pricing) |
-| Test Load               | [Load Impact](https://loadimpact.com/) | [$300](https://loadimpact.com/pricing) | [Test Plans](https://marketplace.visualstudio.com/items?itemName=ms.vss-testmanager-web#pricing) | free: 20k<br/>extra: [$36/100k](https://docs.microsoft.com/en-us/vsts/billing/buy-load-testing-vs#_buy-load-testing) |
+Естественно что на рынке существует огромное количество предложений,
+в данной статье рассматривается именно те и в той комбинации которые мне больше всего встречались по ходу работы.
+Следующая таблица описывает какие конкретно средства и по какой стоимости в месяц входят
+| Area                    | Option A Tool | Cost | Option M Tool | Cost
+|:------------------------|:--------------|:-----|:--------------|:----
+| Auth                    |               |      | [Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/) | free: basic<br/>extra: [$1/user](https://azure.microsoft.com/en-us/pricing/details/active-directory/)
+| Knowledge Sharing       | [Atlassian Confluence](https://www.atlassian.com/software/confluence) |\<10 users: $10<br/>\>10 users: [$5/user](https://www.atlassian.com/software/confluence/pricing) | [Wiki](https://azure.microsoft.com/en-us/services/devops/wiki/) |free: 5 users<br/>extra: [$6/user](https://marketplace.visualstudio.com/items?itemName=ms.vss-vstsuser#pricing)
+| Requirements Management | [Atlassian Jira](https://jira.atlassian.com/) |\<10 users: $10<br/>\>10 users: [$7/user](https://www.atlassian.com/software/jira/pricing) | [Boards](https://azure.microsoft.com/en-us/services/devops/boards/) | Included
+| Repos                   | [Atlassian Bitbucket](https://www.atlassian.com/software/bitbucket) |\<5 users: free<br/>\>5 users: [$5/user](https://www.atlassian.com/software/bitbucket/pricing?tab=cloud)| [Repos](https://azure.microsoft.com/en-us/services/devops/repos/) | Included
+| Pipelines               | [Jenkins](https://jenkins.io/) | \*1 | [Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines/) | free: 1<br/>extra: [$40/pipe](https://marketplace.visualstudio.com/items?itemName=ms.build-release-hosted-pipelines#pricing)
+| Artifacts               | [NuGet Server](https://docs.microsoft.com/en-us/nuget/hosting-packages/nuget-server) | \*1 |[Artifacts](https://azure.microsoft.com/en-us/services/devops/artifacts/) | free: 5 users<br/>extra: [$4/user](https://marketplace.visualstudio.com/items?itemName=ms.feed#pricing)
+| Test                    | [Gurock TestRail](http://www.gurock.com/testrail/) | [$30/user](http://www.gurock.com/testrail/pricing/cloud/) | [Test Plans](https://azure.microsoft.com/en-us/services/devops/test-plans/) | [$52/user](https://marketplace.visualstudio.com/items?itemName=ms.vss-testmanager-web#pricing)
+| Test Load               | [Load Impact](https://loadimpact.com/) | [$300](https://loadimpact.com/pricing) | [Test Plans](https://marketplace.visualstudio.com/items?itemName=ms.vss-testmanager-web#pricing) | free: 20k<br/>extra: [$36/100k](https://docs.microsoft.com/en-us/vsts/billing/buy-load-testing-vs#_buy-load-testing)
 
 \*1 requires additional infrastructure, setup, provision and maintainance.
 
-тсебя хочу добавить что вцелом даже на энтерпрайзных проектах на много денег существует определнные проблемы получения бюджета н аоплату систем.
-
-А как говрится - бесплатный сыр только на сьемочной площадке гей порно, и вы в кадре.
-
-Following table compares options by cost per month
-
+от себя хочу добавить что вцелом даже на энтерпрайзных проектах на много денег существует определнные проблемы получения бюджета н аоплату систем.
 
 ### Сравнение по аспектам
 
@@ -121,17 +119,16 @@ Following table compares options by cost per month
 
 | Area | Вариант A | Вариант M |
 |:-----|:----------|:----------|
-| Price & Payment |- Отдельная покупка каждого сервиса у разных поставщиков.<br/> - Отдельные счета-фактуры в конце месяца.<br/> - Совокупная стоимость владения **больше**, чем решение 'все в одном'.| - Все услуги приобретаются у одного поставщика в виде пакета.<br/> - **Один счет-фактура** в конец месяца.<br/> - Совокупная стоимость владения **меньше**, чем у отдельных систем.|
-| Legal | Требуется принять **различные политики** от каждого поставщика. | Требуется принять только **одну политику** от одного поставщика. | + |
-| Аутентификация и управление доступом | Требуется ** отдельное ** управление каждым пользователем для каждой системы. Интеграция некоторых продуктов с централизированной системой аутентификации доступна за **дополнительную плату**. | Интегрирован с Azure Active Directory и имеет [B2B Collaboration] (https://docs.microsoft.com/en-us/azure/active-directory/b2b/what-is-b2b) **из коробки**. |
-| Service Management | While most of the services are managed (hosted in the cloud) some services like Jenkins **requires additional infrastructure**, setup and provision. | - | Is **completely managed** service. | + |
-| [Requirements Traceability](https://en.wikipedia.org/wiki/Requirements_traceability) | **Requires purchase** of additional plugins and investment on integartion. | - | Provided **out of the box.** | + |
-| IDE | **Requires additional** plugins. | - | Provides **out of the box** integration within the Visual Studio IDE. | + |
-| Принятие | **Некоторые продукты ** уже используются. | Может потребоваться инвестировать в обучение некоторых ролей. Таких как ПМ. |
+| Price & Payment |- Отдельная покупка каждого сервиса у разных поставщиков.<br/> - Отдельные счета-фактуры в конце месяца.<br/> - Совокупная стоимость владения **больше**, чем решение 'все в одном'.| - Все услуги приобретаются у одного поставщика в виде пакета.<br/> - **Один счет-фактура** в конец месяца.<br/> - Совокупная стоимость владения **меньше**, чем у отдельных систем.
+| Legal | Требуется принять **различные политики** от каждого поставщика. | Требуется принять только **одну политику** от одного поставщика.
+| Authentication and Authorization | Требуется **отдельное** управление каждым пользователем для каждой системы. Интеграция некоторых продуктов с централизированной системой аутентификации доступна за **дополнительную плату**. | Интегрирован с Azure Active Directory и имеет [B2B Collaboration](https://docs.microsoft.com/en-us/azure/active-directory/b2b/what-is-b2b) **из коробки**.
+| Service Management | While most of the services are managed (hosted in the cloud) some services like Jenkins **requires additional infrastructure**, setup and provision. | - | Is **completely managed** service.
+| [Requirements Traceability](https://en.wikipedia.org/wiki/Requirements_traceability) | **Requires purchase** of additional plugins and investment on integartion. | - | Provided **out of the box.**
+| IDE | **Requires additional** plugins. | Provides **out of the box** integration within the Visual Studio IDE.
+| Acceptance | **Некоторые продукты** уже используются. | Может потребоваться инвестировать в обучение некоторых ролей. Таких как ПМ.
 
+## Сценарии использования
 
-
-## Use scenarios
 In order to give understending about aproximate cost of ownership, this section provides several use-case scenarios.
 * Stakeholders are operating with requirements only.
 * Performance tests, Build & Release agents and Package Management are not included.
