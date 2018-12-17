@@ -97,7 +97,8 @@
 
 Естественно что на рынке существует огромное количество предложений,
 в данной статье рассматривается именно те и в той комбинации которые мне больше всего встречались по ходу работы.
-Следующая таблица описывает какие конкретно средства и по какой стоимости в месяц входят
+Следующая таблица описывает какие конкретно средства и по какой стоимости в месяц входят в вышеперечисленные варианты:
+
 | Area                    | Option A Tool | Cost | Option M Tool | Cost
 |:------------------------|:--------------|:-----|:--------------|:----
 | Auth                    | [G Suit](https://confluence.atlassian.com/cloud/security-with-g-suite-938859740.html) |      | [Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/) | free: basic<br/>extra: [$1/user](https://azure.microsoft.com/en-us/pricing/details/active-directory/)
@@ -122,10 +123,8 @@
 | Price & Payment |- Отдельная покупка каждого сервиса у разных поставщиков.<br/> - Отдельные счета-фактуры в конце месяца.<br/> - Совокупная стоимость владения **больше**, чем решение 'все в одном'.| - Все услуги приобретаются у одного поставщика в виде пакета.<br/> - **Один счет-фактура** в конец месяца.<br/> - Совокупная стоимость владения **меньше**, чем у отдельных систем.
 | Legal | Требуется принять **различные политики** от каждого поставщика. | Требуется принять только **одну политику** от одного поставщика.
 | Auth | Интеграция продуктов с централизированной системой аутентификации требует дополнительных затрат. | Интегрирован с Azure Active Directory и имеет [B2B Collaboration](https://docs.microsoft.com/en-us/azure/active-directory/b2b/what-is-b2b) **из коробки**.
-| Service Management | While most of the services are managed (hosted in the cloud) some services like Jenkins **requires additional infrastructure**, setup and provision. | - | Is **completely managed** service.
-| [Requirements Traceability](https://en.wikipedia.org/wiki/Requirements_traceability) | **Requires purchase** of additional plugins and investment on integartion. | - | Provided **out of the box.**
-| IDE | **Requires additional** plugins. | Provides **out of the box** integration within the Visual Studio IDE.
-| Acceptance | **Некоторые продукты** уже используются. | Может потребоваться инвестировать в обучение некоторых ролей. Таких как ПМ.
+| Service Management | Хоть большинство сервисов являются управляемыми, некоторые, такие как Jenkins, **требуют дополнительной инфраструктуры, настройки и поддержки.** | Все сервисы **управляемые**.
+| [Traceability](https://en.wikipedia.org/wiki/Requirements_traceability) | Требуются **дополнительные расходы** на покупку и интеграцию плагинов. | Доступна **из коробки.**
 
 ## Сценарии использования
 
