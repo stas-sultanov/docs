@@ -104,7 +104,7 @@
 Стоит упомянуть, что в целом даже на энтерпрайзных проектах на много денег существует определённые проблемы получения бюджета на системы для обеспечения жизненного цикла.
 Нет проблем тратить каждый месяц много тысяч денег на компенсации членам команды, зато практически всегда начинаются вопросы про сотню другую денег для оплаты средств обеспечения жизненного цикла.
 
-Следующая таблица описывает какие конкретно средства и по какой стоимости в месяц входят в вышеперечисленные варианты:
+Следующая таблица описывает какие конкретно средства и по какой стоимости **в месяц** входят в вышеперечисленные варианты:
 
 | Area                    | Option A Tool | Cost | Option M Tool | Cost
 |:------------------------|:--------------|:-----|:--------------|:-----
@@ -113,7 +113,7 @@
 | Requirements Management | [Atlassian Jira](https://jira.atlassian.com/) |\<10 users: $10<br/>\>10 users: [$7/user](https://www.atlassian.com/software/jira/pricing) | [Boards](https://azure.microsoft.com/en-us/services/devops/boards/) | Included
 | Repos                   | [Atlassian Bitbucket](https://www.atlassian.com/software/bitbucket) |\<5 users: free<br/>\>5 users: [$5/user](https://www.atlassian.com/software/bitbucket/pricing?tab=cloud)| [Repos](https://azure.microsoft.com/en-us/services/devops/repos/) | Included
 | Pipelines               | [Jenkins](https://jenkins.io/) | \*1 | [Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines/) | free: 1<br/>extra: [$40/pipe](https://marketplace.visualstudio.com/items?itemName=ms.build-release-hosted-pipelines#pricing)
-| Artifacts               | [MyGet](https://www.myget.org) | 5 feeds: [$40/month](https://www.myget.org/pricing) | [Artifacts](https://azure.microsoft.com/en-us/services/devops/artifacts/) | free: 5 users<br/>extra: [$4/user](https://marketplace.visualstudio.com/items?itemName=ms.feed#pricing)
+| Artifacts               | [MyGet](https://www.myget.org) | 5 feeds: [$40](https://www.myget.org/pricing) | [Artifacts](https://azure.microsoft.com/en-us/services/devops/artifacts/) | free: 5 users<br/>extra: [$4/user](https://marketplace.visualstudio.com/items?itemName=ms.feed#pricing)
 | Test                    | [Gurock TestRail](http://www.gurock.com/testrail/) | [$30/user](http://www.gurock.com/testrail/pricing/cloud/) | [Test Plans](https://azure.microsoft.com/en-us/services/devops/test-plans/) | [$52/user](https://marketplace.visualstudio.com/items?itemName=ms.vss-testmanager-web#pricing)
 | Test Load               | [Load Impact](https://loadimpact.com/) | [$300](https://loadimpact.com/pricing) | [Load Tests](https://docs.microsoft.com/en-us/azure/devops/test/load-test/get-started-simple-cloud-load-test?view=vsts) | free: 20k<br/>extra: [$36/100k](https://docs.microsoft.com/en-us/vsts/billing/buy-load-testing-vs#_buy-load-testing)
 
@@ -137,38 +137,42 @@
 
 * Stakeholders работают только с требованиями.
 * Все члены команды как минимум имеют доступ к системе тестирования для просмотра планов, кейсов и результатов.
-* Стоиомсть Pipeline Agents, Artifacts, Load Tests не включены.
+* Стоиомсть Pipeline Agents, Load Tests не включены.
 * Стоимость **опции M** может быть уменьшена, если члены команды имеют [Visual Studio Subscription](https://www.visualstudio.com/vs/pricing/).
 
 ***Scenario 1***
-Команда малого размера: 3 stakeholders, 5 dev/op, 1 tester.
+Команда малого размера: 3 stakeholders, 5 developers, 1 tester.
 
-|               | 3х stakeholder |  5х dev/op |  1х test |    Totoal |
-|:--------------|---------------:|-----------:|---------:|----------:|
-| **Option A**  |                |            |          |  **$280** |
-| Confluence    |                |            |          |       $10 |
-| Jira          |            $30 |        $50 |      $10 |       $90 |
-| Bitbucket     |                |        $25 |       $5 |       $30 |
-| TestRail      |                |       $150 |      $50 |      $180 |
-| **Option M**  |                |            |          |   **$58** |
-| Boards        |                |            |       $6 |        $6 |
-| Repos         |                |   Included | Included |        $0 |
-| Test Plans    |                |            |      $52 |       $52 |
+|              | 3х stakeholder | 5х dev   | 1х test      | Total     |
+|--------------|----------------|----------|--------------|-----------|
+| **Option A** |                |          |              | **\$350** |
+| Confluence   |                |          |              | \$10      |
+| Jira         | \$30           | \$50     | \$10         | \$90      |
+| Bitbucket    | Not Required   | \$25     | \$5          | \$30      |
+| MyGet        | Not Required   |          |              | \$40      |
+| TestRail     | Not Required   | \$150    | \$50         | \$180     |
+| **Option M** |                |          |              | **\$58**  |
+| Boards       | Included       | Included | \$6          | \$6       |
+| Repos        | Not Required   | Included | Included     | \$0       |
+| Artifacts    | Not Required   | Included | Not Required | \$0       |
+| Test Plans   | Not Required   | Included | \$52         | \$52      |
 
 ***Scenario 2***
-Комадна среднего размера: 5 stakeholders, 20 dev/op, 5 testers.
+Комадна среднего размера: 5 stakeholders, 20 developers, 5 testers.
 
-|               | 3х stakeholder | 20х dev/op |  5х test |    Totoal |
-|:--------------|---------------:|-----------:|---------:|----------:|
-| **Option A**  |                |            |          | **$1085** |
-| Confluence    |            $25 |       $100 |      $25 |      $150 |
-| Jira          |            $35 |       $140 |      $35 |      $210 |
-| Bitbucket     |                |       $100 |      $25 |      $125 |
-| TestRail      |                |            |          |      $600 |
-| **Option M**  |                |            |          |  **$410** |
-| Boards        |                |       $150 | Included |      $150 |
-| Repos         |                |   Included | Included |        $0 |
-| Test Plans    |                |            |     $260 |      $260 |
+|              | 3х stakeholder | 20х dev  | 5х test      | Total      |
+|--------------|----------------|----------|--------------|------------|
+| **Option A** |                |          |              | **\$1202** |
+| Confluence   | \$25           | \$100    | \$25         | \$150      |
+| Jira         | \$35           | \$140    | \$35         | \$210      |
+| Bitbucket    | Not Required   | \$100    | \$25         | \$125      |
+| MyGet        | Not Required   | \$117    | Not Required | \$117      |
+| TestRail     | Not Required   |          |              | \$600      |
+| **Option M** |                |          |              | **\$520**  |
+| Boards       | Included       | \$150    | Included     | \$150      |
+| Repos        | Not Required   | Included | Included     | \$0        |
+| Artifacts    | Not Required   | \$110    | Not Required | \$110      |
+| Test Plans   | Not Required   | Included | \$260        | \$260      |
 
 ## Заключение:
 Когда предлагаете использовать какие-либо средства будьте готовы нести персональну ответсвенность.
