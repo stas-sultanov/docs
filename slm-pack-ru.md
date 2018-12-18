@@ -154,7 +154,7 @@
 | Jira         | \$30           | \$50     | \$10         | \$90      |
 | Bitbucket    | Not Required   | \$25     | \$5          | \$30      |
 | MyGet        | Not Required   |          |              | \$40      |
-| TestRail     | Not Required   | \$150    | \$50         | \$180     |
+| TestRail     | Not Required   | \$150    | \$30         | \$180     |
 | **Option M** |                |          |              | **\$58**  |
 | Wiki         | Included       | Included | Included     | \$0       |
 | Boards       | Included       | Included | \$6          | \$6       |
