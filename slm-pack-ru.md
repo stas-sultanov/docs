@@ -143,7 +143,7 @@
 * Stakeholders работают только с требованиями.
 * Все члены команды за исключением Stakeholder исполььзуют систему для тестов.
 * Стоиомсть Pipeline Agents, Artifacts, Load Tests не включены.
-* Стоимость ** опции M ** может быть уменьшена, если пользователи имеют [Подписки Visual Studio] (https://www.visualstudio.com/vs/pricing/).
+* Стоимость **опции M** может быть уменьшена, если члены команды имеют [Visual Studio Subscription](https://www.visualstudio.com/vs/pricing/).
 
 ***Scenario 1***
 Команда малого размера: 3 stakeholders, 5 dev/op, 1 tester.
