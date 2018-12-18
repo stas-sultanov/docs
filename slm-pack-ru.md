@@ -115,7 +115,7 @@
 | Test                    | [Gurock TestRail](http://www.gurock.com/testrail/) | [$30/user](http://www.gurock.com/testrail/pricing/cloud/) | [Test Plans](https://azure.microsoft.com/en-us/services/devops/test-plans/) | [$52/user](https://marketplace.visualstudio.com/items?itemName=ms.vss-testmanager-web#pricing)
 | Test Load               | [Load Impact](https://loadimpact.com/) | [$300](https://loadimpact.com/pricing) | [Load Tests](https://docs.microsoft.com/en-us/azure/devops/test/load-test/get-started-simple-cloud-load-test?view=vsts) | free: 20k<br/>extra: [$36/100k](https://docs.microsoft.com/en-us/vsts/billing/buy-load-testing-vs#_buy-load-testing)
 
-**Внимание!** Как можно заметить некоторые Area не описанные, это сделано с целью упрощения. Потому как выбор тех же Communication сервисов это ещё одна статься такого же размера.
+**Внимание!** Как можно заметить некоторые Area не описанные, это сделано с целью упрощения. Потому как выбор тех же Communication средств - это ещё одна статься такого же размера.
 
 ### Сравнение вариантов по аспектам
 
