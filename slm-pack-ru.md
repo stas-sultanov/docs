@@ -152,6 +152,7 @@
 | MyGet        | Not Required   |          |              | \$40      |
 | TestRail     | Not Required   | \$150    | \$50         | \$180     |
 | **Option M** |                |          |              | **\$58**  |
+| Wiki         | Included       | Included | Included     | \$0       |
 | Boards       | Included       | Included | \$6          | \$6       |
 | Repos        | Not Required   | Included | Included     | \$0       |
 | Artifacts    | Not Required   | Included | Not Required | \$0       |
@@ -169,6 +170,7 @@
 | MyGet        | Not Required   | \$117    | Not Required | \$117      |
 | TestRail     | Not Required   |          |              | \$600      |
 | **Option M** |                |          |              | **\$520**  |
+| Wiki         | Included       | Included | Included     | \$0       |
 | Boards       | Included       | \$150    | Included     | \$150      |
 | Repos        | Not Required   | Included | Included     | \$0        |
 | Artifacts    | Not Required   | \$110    | Not Required | \$110      |
