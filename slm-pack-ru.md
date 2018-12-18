@@ -80,11 +80,9 @@
 -   **Минус:**
     -   Возможны случаи паранойи с обеих сторон.
 
-**Смешанные варианты:** естественно не исключены смешанные варианты, но как
-правило они обладают минусами всех вышеперечисленных.
+**Смешанные варианты:** естественно не исключены смешанные варианты, но как правило они обладают минусами всех вышеперечисленных.
 
-Лично я всегда стараюсь продвинуть вариант использования облачных сервисов и
-только в исключительных ситуациях размещение на стороне клиента.
+Лично я всегда стараюсь продвинуть вариант использования облачных сервисов и только в исключительных ситуациях размещение на стороне клиента.
 
 Средства
 --------
@@ -103,14 +101,13 @@
 -   Вариант A - на основе сервисов и продуктов компании [Atlassian](https://www.atlassian.com/), иногда упоминается как *Atlassian Stack*.
 -   Вариант M - на базе сервисов и продуктов Microsoft, в основе которого лежит пакет сервисов [Azure DevOps](https://azure.microsoft.com/en-us/services/devops). До недавнего времени являлся одним продуктом Visual Studio Team Services. Имеет версию доступную on-prem. Все сервисы так или иначе размещаются воблаке Azure.
 
-Следующая таблица описывает какие конкретно средства и по какой стоимости в месяц входят в вышеперечисленные варианты:
-
 Стоит упомянуть, что в целом даже на энтерпрайзных проектах на много денег существует определённые проблемы получения бюджета на системы для обеспечения жизненного цикла.
-
 Нет проблем тратить каждый месяц много тысяч денег на компенсации членам команды, зато практически всегда начинаются вопросы про сотню другую денег для оплаты средств обеспечения жизненного цикла.
 
+Следующая таблица описывает какие конкретно средства и по какой стоимости в месяц входят в вышеперечисленные варианты:
+
 | Area                    | Option A Tool | Cost | Option M Tool | Cost
-|:------------------------|:--------------|:-----|:--------------|:----
+|:------------------------|:--------------|:-----|:--------------|:-----
 | Auth                    | [G Suit](https://confluence.atlassian.com/cloud/security-with-g-suite-938859740.html) | ??? | [Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/) | free: basic<br/>extra: [$1/user](https://azure.microsoft.com/en-us/pricing/details/active-directory/)
 | Knowledge Sharing       | [Atlassian Confluence](https://www.atlassian.com/software/confluence) |\<10 users: $10<br/>\>10 users: [$5/user](https://www.atlassian.com/software/confluence/pricing) | [Wiki](https://azure.microsoft.com/en-us/services/devops/wiki/) |free: 5 users<br/>extra: [$6/user](https://marketplace.visualstudio.com/items?itemName=ms.vss-vstsuser#pricing)
 | Requirements Management | [Atlassian Jira](https://jira.atlassian.com/) |\<10 users: $10<br/>\>10 users: [$7/user](https://www.atlassian.com/software/jira/pricing) | [Boards](https://azure.microsoft.com/en-us/services/devops/boards/) | Included
@@ -118,7 +115,9 @@
 | Pipelines               | [Jenkins](https://jenkins.io/) | \*1 | [Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines/) | free: 1<br/>extra: [$40/pipe](https://marketplace.visualstudio.com/items?itemName=ms.build-release-hosted-pipelines#pricing)
 | Artifacts               | [NuGet Server](https://docs.microsoft.com/en-us/nuget/hosting-packages/nuget-server) | \*1 |[Artifacts](https://azure.microsoft.com/en-us/services/devops/artifacts/) | free: 5 users<br/>extra: [$4/user](https://marketplace.visualstudio.com/items?itemName=ms.feed#pricing)
 | Test                    | [Gurock TestRail](http://www.gurock.com/testrail/) | [$30/user](http://www.gurock.com/testrail/pricing/cloud/) | [Test Plans](https://azure.microsoft.com/en-us/services/devops/test-plans/) | [$52/user](https://marketplace.visualstudio.com/items?itemName=ms.vss-testmanager-web#pricing)
-| Test Load               | [Load Impact](https://loadimpact.com/) | [$300](https://loadimpact.com/pricing) | [Test Plans](https://marketplace.visualstudio.com/items?itemName=ms.vss-testmanager-web#pricing) | free: 20k<br/>extra: [$36/100k](https://docs.microsoft.com/en-us/vsts/billing/buy-load-testing-vs#_buy-load-testing)
+| Test Load               | [Load Impact](https://loadimpact.com/) | [$300](https://loadimpact.com/pricing) | [Load Tests](https://docs.microsoft.com/en-us/azure/devops/test/load-test/get-started-simple-cloud-load-test?view=vsts) | free: 20k<br/>extra: [$36/100k](https://docs.microsoft.com/en-us/vsts/billing/buy-load-testing-vs#_buy-load-testing)
+
+Как можно заметить некоторые Area не описанные, это сделано с целью упрощения. Потому как выбор тех же Communication сервисов это ещё одна статься такого же размера.
 
 ### Сравнение вариантов по аспектам
 
@@ -126,7 +125,7 @@
 
 | Area               | Вариант A | Вариант M
 |--------------------|-----------|----------
-| Price & Payment    | - Отдельная покупка каждого сервиса у разных поставщиков.</br>- Отдельные счета-фактуры в конце месяца.</br>- Совокупная стоимость владения **больше**, чем решение 'все в одном'.| - Все услуги приобретаются у одного поставщика в виде пакета.</br>- **Один счёт-фактура** в конец месяца.</br>- Совокупная стоимость владения **меньше**, чем у отдельных систем.                                                                                                            |
+| Price & Payment    | Отдельная покупка каждого сервиса у разных поставщиков.</br>Отдельные счета-фактуры в конце месяца.</br>Совокупная стоимость владения **больше**, чем решение 'все в одном'.| Все услуги приобретаются у одного поставщика в виде пакета.</br>**Один счёт-фактура** в конец месяца.</br>Совокупная стоимость владения **меньше**, чем у отдельных систем.
 | Legal              | Требуется принять **различные политики** от каждого поставщика. | Требуется принять только **одну политику** от одного поставщика.
 | Auth               | Интеграция продуктов с централизованной системой аутентификации требует дополнительных затрат. | Интегрирован с Azure Active Directory и имеет [B2B Collaboration](https://docs.microsoft.com/en-us/azure/active-directory/b2b/what-is-b2b) **из коробки**.
 | Service Management | Хоть большинство сервисов являются управляемыми, некоторые, такие как Jenkins, **требуют дополнительной инфраструктуры, настройки и поддержки.** | Все сервисы **управляемые**.
