@@ -96,8 +96,8 @@
 Естественно, что на рынке существует огромное количество предложений, и возможных вариантов использования в пазличных комбинациях - огромное множество.
 В данной статье я рассматриваю именно те средства и в той комбинации, которые мне больше всего встречались по ходу работы.
 
--   Option A - на основе сервисов и продуктов компании [Atlassian](https://www.atlassian.com/), иногда упоминается как *Atlassian Stack*. На самом деле чаще всего используется максимум 3 продукта от Atlassian.
--   Option M - на базе сервисов и продуктов [Microsoft](https://azure.microsoft.com), в основе которого лежит пакет облачных сервисов [Azure DevOps](https://azure.microsoft.com/en-us/services/devops). До недавнего времени являлся одним продуктом Visual Studio Team Services. Имеет версию доступную [on-prem](https://azure.microsoft.com/en-us/services/devops/server/).
+-  **Option A** - на основе сервисов и продуктов компании [Atlassian](https://www.atlassian.com/), иногда упоминается как *Atlassian Stack*. На самом деле чаще всего используется максимум 3 продукта от Atlassian.
+-  **Option M** - на базе сервисов и продуктов [Microsoft](https://azure.microsoft.com), в основе которого лежит пакет облачных сервисов [Azure DevOps](https://azure.microsoft.com/en-us/services/devops). До недавнего времени являлся одним продуктом Visual Studio Team Services. Имеет версию доступную [on-prem](https://azure.microsoft.com/en-us/services/devops/server/).
 
 Стоит упомянуть, что в целом даже на энтерпрайзных проектах на много денег существует определённые проблемы получения бюджета на системы для обеспечения жизненного цикла.
 Нет проблем тратить каждый месяц много тысяч денег на компенсации членам команды, зато практически всегда начинаются вопросы про сотню другую денег для оплаты средств обеспечения жизненного цикла.
@@ -124,7 +124,7 @@
 | Area               | Option A | Option M |
 |--------------------|----------|----------|
 | Auth               | Интеграция продуктов с централизованной системой аутентификации **требует дополнительных затрат**. | **Интеграция из коробки** с Active Directory и реализует [B2B Collaboration](https://docs.microsoft.com/en-us/azure/active-directory/b2b/what-is-b2b).
-| Compliance         | [Atlassian заявляет](https://www.atlassian.com/trust/compliance) о соответствии следующим требованиям:<br/>GDPR, ISO 27001, SOC 2 Type 1, CSA STAR Level 1| [Microsoft заявляет о](https://docs.microsoft.com/en-us/azure/devops/articles/team-services-security-whitepaper?view=vsts#compliance-certifications) о соответствии следующим требованиям:</br>GDPR, ISO 27001:2013, SOC 1 Type 2, SOC 2 Type 2, HIPAA, BAA, EU Model Clauses
+| Compliance         | [Atlassian заявляет](https://www.atlassian.com/trust/compliance) о соответствии следующим требованиям:<br/>GDPR, ISO 27001, SOC 2 Type 1, CSA STAR Level 1| [Microsoft заявляет](https://docs.microsoft.com/en-us/azure/devops/articles/team-services-security-whitepaper?view=vsts#compliance-certifications) о соответствии следующим требованиям:</br>GDPR, ISO 27001:2013, SOC 1 Type 2, SOC 2 Type 2, HIPAA, BAA, EU Model Clauses
 | Legal              | Требуется принять **различные политики** от каждого поставщика. | Требуется принять только **одну политику** от одного поставщика.
 | Service Management | Хоть большинство сервисов являются управляемыми, некоторые, такие как Jenkins, **требуют дополнительной инфраструктуры, настройки и поддержки.** | Все сервисы **управляемые**.
 | Traceability       | Требуются **дополнительные расходы** на покупку и интеграцию плагинов. | Доступна **из коробки.**
