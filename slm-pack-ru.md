@@ -126,13 +126,14 @@
 | Area               | Вариант A | Вариант M
 |--------------------|-----------|----------
 | Auth               | Интеграция продуктов с централизованной системой аутентификации **требует дополнительных затрат**. | **Интеграция из коробки** с Active Directory и реализует [B2B Collaboration](https://docs.microsoft.com/en-us/azure/active-directory/b2b/what-is-b2b).
-| Compliance         | [Atlassian имеет](https://www.atlassian.com/trust/compliance) имеет следуюший список сертифкаций:<br/>GDPR, ISO 27001, SOC 2 Type 1, CSA STAR Level 1| [Microsoft имеет](https://docs.microsoft.com/en-us/azure/devops/articles/team-services-security-whitepaper?view=vsts#compliance-certifications) следуюший список сертифкаций:: GDPR, ISO 27001:2013, SOC 1 Type 2, SOC 2 Type 2, HIPAA, BAA, EU Model Clauses
+| Compliance         | [Atlassian заявляет](https://www.atlassian.com/trust/compliance) о соответствии следующим требованиям:<br/>GDPR, ISO 27001, SOC 2 Type 1, CSA STAR Level 1| [Microsoft заявляет о](https://docs.microsoft.com/en-us/azure/devops/articles/team-services-security-whitepaper?view=vsts#compliance-certifications) о соответствии следующим требованиям: GDPR, ISO 27001:2013, SOC 1 Type 2, SOC 2 Type 2, HIPAA, BAA, EU Model Clauses
 | Legal              | Требуется принять **различные политики** от каждого поставщика. | Требуется принять только **одну политику** от одного поставщика.
 | Service Management | Хоть большинство сервисов являются управляемыми, некоторые, такие как Jenkins, **требуют дополнительной инфраструктуры, настройки и поддержки.** | Все сервисы **управляемые**.
 | Traceability       | Требуются **дополнительные расходы** на покупку и интеграцию плагинов. | Доступна **из коробки.**
 | Price & Payment    | Отдельная покупка каждого сервиса у разных поставщиков.</br>Отдельные счета-фактуры в конце месяца.</br>Совокупная стоимость владения **больше**, чем решение 'все в одном'.| Все услуги приобретаются у одного поставщика в виде пакета.</br>**Один счёт-фактура** в конец месяца.</br>Совокупная стоимость владения **меньше**, чем у отдельных систем.
 
-Интересный момент, если ваш проект в домене Healthcare и териториально в USA то вам лучше использовать только HIPAA Compliant средства.
+На счёт Compliance, если ваш проект в регулируемом домене, например Healthcare то желательно чтобы абсолютно все сервисы, которые вы используете соответствовали требованиям специфичными к данному домену.
+например, если ваш проект в домене Healthcare и территориально в USA, то вам лучше использовать только HIPAA Compliant средства.
 
 ### Сценарии использования
 
