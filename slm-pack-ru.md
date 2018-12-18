@@ -165,7 +165,7 @@
 ***Scenario 2***
 Комадна среднего размера: 5 stakeholders, 20 developers, 5 testers.
 
-|              | 3х stakeholder | 20х dev  | 5х test      | Total      |
+|              | 5х stakeholder | 20х dev  | 5х test      | Total      |
 |--------------|----------------|----------|--------------|------------|
 | **Option A** |                |          |              | **\$1422** |
 | Confluence   | \$25           | \$100    | \$25         | \$150      |
