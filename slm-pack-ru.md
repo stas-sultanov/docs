@@ -91,10 +91,10 @@
 -   использовать решение от одного поставщика.
 
 Это как будто вам нужна машина, чтобы ездить, и вы можете купить её или взять в аренду и ездить сразу, или вы можете купить запчасти потрать огромное количество
-времени и денег и собрать из них [папелац](https://ru.wikipedia.org/wiki/%D0%9F%D0%B5%D0%BF%D0%B5%D0%BB%D0%B0%D1%86).
+времени и денег и собрать из них [пепелац](https://ru.wikipedia.org/wiki/%D0%9F%D0%B5%D0%BF%D0%B5%D0%BB%D0%B0%D1%86).
 
 Естественно, что на рынке существует огромное количество предложений. Количество возможных вариантов использования средств в различных комбинациях просто огромно.
-В данной статье я рассматриваю именно те средства и в той комбинации, которые мне больше всего встречались по ходу работы.
+В данной статье я рассматриваю именно те средства и в той комбинации, которые мне больше всего встречались по ходу работы и с которыми у меня есть реальный опыт работы.
 
 -  **Option A** - на основе сервисов и продуктов компании [Atlassian](https://www.atlassian.com/), иногда упоминается как *Atlassian Stack*. На самом деле чаще всего используется максимум 3 продукта от Atlassian.
 -  **Option M** - на базе сервисов и продуктов [Microsoft](https://azure.microsoft.com), в основе которого лежит пакет облачных сервисов [Azure DevOps](https://azure.microsoft.com/en-us/services/devops). До недавнего времени являлся одним продуктом Visual Studio Team Services. Имеет версию доступную [on-prem](https://azure.microsoft.com/en-us/services/devops/server/).
@@ -167,14 +167,14 @@
 
 |              | 3х stakeholder | 20х dev  | 5х test      | Total      |
 |--------------|----------------|----------|--------------|------------|
-| **Option A** |                |          |              | **\$1202** |
+| **Option A** |                |          |              | **\$1422** |
 | Confluence   | \$25           | \$100    | \$25         | \$150      |
 | Jira         | \$35           | \$140    | \$35         | \$210      |
 | Bitbucket    | Not Required   | \$100    | \$25         | \$125      |
 | MyGet        | Not Required   | \$117    | Not Required | \$117      |
-| TestRail     | Not Required   |          |              | \$600      |
+| TestRail     | Not Required   |          |              | \$820	   |
 | **Option M** |                |          |              | **\$520**  |
-| Wiki         | Included       | Included | Included     | \$0       |
+| Wiki         | Included       | Included | Included     | \$0        |
 | Boards       | Included       | \$150    | Included     | \$150      |
 | Repos        | Not Required   | Included | Included     | \$0        |
 | Artifacts    | Not Required   | \$110    | Not Required | \$110      |
