@@ -1,35 +1,32 @@
 # Plot
 
-Solution Lifecycle Management is very complicated and consist of different processes.
-To ensure the processes it is required to have certain types of services which provides different functionality.
+Solution Lifecycle Management is a very complicated process.
+To ensure the proces it is required to have certain types of services which provides different functionality.
 Following table describes types of services and their functionality:
 
 | Service                 | Functionality 
 |-------------------------|--------------
-| Auth                    | Централизованная аутентификация и авторизация пользователей, сервисов и приложений.</br>Все другие средства интегрируются с этим.
-| Communication           | Коммуникации внутри комнды<br/>Коммуникации на основе чатов с возможностью проведения видео звонков и их записью, индексированием и поиском по ключевым словам.
-| Knowledge Sharing       | Расшаривание знаний о проекте между всеми участниками команды.</br>На основе де-факто индустриального стандарта [Markdown](https://en.wikipedia.org/wiki/Markdown).
-| Requirements Management | Управление и визуализация требованиями.</br>Например Scrum backlog и Kanban board.
-| Repos                   | Хранение исходников и контроль версий.<br/>Например, реализация [Git](https://en.wikipedia.org/wiki/Git).
-| Pipelines               | Сборка и управление выпусками.
-| Artifacts               | Хранение и работа с артефактами.</br>Например [Debug Symbols](https://en.wikipedia.org/wiki/Debug_symbol), [NuGet](https://en.wikipedia.org/wiki/NuGet), [NPM](https://en.wikipedia.org/wiki/Npm_(software)), [Maven](https://en.wikipedia.org/wiki/Apache_Maven) и т.д.
-| Test                    | Функциональное тестирование.
-| Test Load               | Нагрузочное тестирование.
+| Auth                    | Centralized authentication and authorization of users, services and applications.<br/>All other tools integrate with this.
+| Communication           | Chat-based communication within the team.<br/>Audio and video calls with record, index and search by keywords.
+| Knowledge Sharing       | Share project knowledge between all team members.<br/>Based on the de facto industrial standard [Markdown](https://en.wikipedia.org/wiki/Markdown).
+| Requirements Management | Plan and track work, bugs, and issues.
+| Repos                   | Version control system.<br/>Implementation of the de facto industrial standard  [Git](https://en.wikipedia.org/wiki/Git).
+| Pipelines               | Automatically build, test and deploy solution to any stage and environment.
+| Artifacts               | Organize and control access to packages.</br>Including [Debug Symbols](https://en.wikipedia.org/wiki/Debug_symbol), [NuGet](https://en.wikipedia.org/wiki/NuGet), [NPM](https://en.wikipedia.org/wiki/Npm_(software)), [Maven](https://en.wikipedia.org/wiki/Apache_Maven) and others.
+| Test                    | Provide all types of tests and continous testing.
+| Load Test               | Generate a load and measure quality of service. 
 | Monitor                 | Мониторинг решения и предиктивная аналитики.
 | Feedback                | Сбор отзывов о использовании решения.
-| IDE                     | Среда разработки.</br>Из коробки интегрированная со всеми системами.
+| IDE                     | Development environment.</br>Integrated with all other services.
 
 ## Asembly
 
-In general there are 2 options to assemble all the services requeired :
-
-1. get different services from different vendors
-2. get a pack of services from one vendor
+In general there are two options to assemble all the services requeired.
+First one is to get different services from different vendors and the other is to get a pack of services from one vendor.
 
 It is like you need a car to ride and you can go to Tesla web site and buy one or you can get to a market buy separate parts and assemble one.
-There is a verity of services available on market, usualy used in the following maneer:
 
-1. option is Atlassian based, and it takes **at max 3 different services** from [Atlassian](https://www.atlassian.com/).
+1. option is Atlassian based, and it takes **at max 3 different services** from [Atlassian](https://www.atlassian.com/).
 2. option is Microsoft based, and **all services** are provided by Microsoft.
 
 ## Compare options by aspects
@@ -41,7 +38,7 @@ Following table compares options by different aspects.
 | Identity & Access  | Requires **separate** management of each user for each system.<br/>Integration with Auth service requires **additional investment.** | Integrated with Azure Active Directory and provides [B2B Collaboration](https://docs.microsoft.com/en-us/azure/active-directory/b2b/what-is-b2b) **out of the box**.
 | Management         | While most of the services are managed hosted in the cloud.<br/>Some services **requires additional** infrastructure, setup and provision. | Is **completely managed** solution.
 | Legal              | It is required to accept **different policies** from **each vendor**. | It is required to accept policy from **only one vendor**.
-| Compliance         | [Atlassian declares](https://www.atlassian.com/trust/compliance) about compliance with the following requirements:<br/>GDPR, ISO 27001, SOC 2 Type 1, CSA STAR Level 1.<br/>Compliance with other services supplier requirements - the big question. | [Microsoft declares](https://docs.microsoft.com/en-us/azure/devops/articles/team-services-security-whitepaper?view=vsts#compliance-certifications) about compliance with the following requirements:<br/>GDPR, ISO 27001: 2013, SOC 1 Type 2, SOC 2 Type 2, HIPAA, BAA, EU Model Clauses.
+| Compliance         | [Atlassian declares](https://www.atlassian.com/trust/compliance) compliance with the following requirements:<br/>GDPR, ISO 27001, SOC 2 Type 1, CSA STAR Level 1.<br/>Compliance with other services supplier requirements - the big question. | [Microsoft declares](https://docs.microsoft.com/en-us/azure/devops/articles/team-services-security-whitepaper?view=vsts#compliance-certifications) compliance with the following requirements:<br/>GDPR, ISO 27001: 2013, SOC 1 Type 2, SOC 2 Type 2, HIPAA, BAA, EU Model Clauses.
 | Traceability       | **Requires investment** to setup. | Provided **out of the box**.
 | Cost & Payment     | Purchases from each vendor of each service are separate.<br/>**Separate invoices** at the end of the month.<br/>Total **cost** of ownership is **greater** than all-in-one solutions.| All services are purchased from one vendor as pack.<br/>**One invoice** at the end of the month.<br/>Total **cost** of ownership is **less** than separate systems.
 
@@ -68,7 +65,7 @@ In order to give understending about aproximate cost of ownership, this section 
 - Cost of Load Tests and Pipelines Agents is not included.
 - Cost of **Option M** may be reduced if users have [Visual Studio Subscriptions](https://www.visualstudio.com/vs/pricing/).
 
-**Scenario 1** - Small size team: 3 stakeholders, 5 devs, 1 tester.
+**Case 1** - Small size team: 3 stakeholders, 5 devs, 1 tester.
 
 |              | 3х stakeholder | 5х dev   | 1х test      | Total
 |--------------|----------------|----------|--------------|------
@@ -85,7 +82,7 @@ In order to give understending about aproximate cost of ownership, this section 
 | Artifacts    | Not Required   | Included | Not Required | \$0
 | Test Plans   | Not Required   | Included | \$52         | \$52
 
-**Scenario 2** - Medium size team: 5 stakeholders, 20 devs, 5 testers.
+**Case 2** - Medium size team: 5 stakeholders, 20 devs, 5 testers.
 
 |              | 5х stakeholder | 20х dev  | 5х test      | Total
 |--------------|----------------|----------|--------------|------
