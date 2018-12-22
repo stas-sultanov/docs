@@ -1,11 +1,12 @@
-# Plot
+# Solution Lifecycle Management Services
 
 Solution Lifecycle Management is a very complicated process.
 To ensure the proces it is required to have certain types of services which provides different functionality.
+
 Following table describes types of services and their functionality:
 
-| Service                 | Functionality 
-|-------------------------|--------------
+| Service Type            | Functionality 
+|:------------------------|:-------------
 | Auth                    | Centralized authentication and authorization of users, services and applications.<br/>All other tools integrate with this.
 | Communication           | Chat-based communication within the team.<br/>Audio and video calls with record, index and search by keywords.
 | Knowledge Sharing       | Share project knowledge between all team members.<br/>Based on the de facto industrial standard [Markdown](https://en.wikipedia.org/wiki/Markdown).
@@ -25,8 +26,10 @@ In general there are two options to assemble all the services requeired.
 First one is to get different services from different vendors and the other is to get a pack of services from one vendor.
 It is like you need a car to ride and you can go to Tesla web site and buy one or you can get to a market buy separate parts and assemble one.
 
-1. option is Atlassian based, and it takes **at max 3 different services** from [Atlassian](https://www.atlassian.com/).
-2. option is Microsoft based, and **all services** are provided by Microsoft.
+This document describes and compares two options:
+
+1. Atlassian based. Inculeds **at max 3 different services** from [Atlassian](https://www.atlassian.com/).
+2. Microsoft based. **All services** are provided by Microsoft.
 
 ## Options by aspects
 
