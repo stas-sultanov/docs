@@ -11,25 +11,24 @@ Following table describes types of services and their functionality:
 | Knowledge Sharing       | Share project knowledge between all team members.<br/>Based on the de facto industrial standard [Markdown](https://en.wikipedia.org/wiki/Markdown).
 | Requirements Management | Plan and track work, bugs, and issues.
 | Repos                   | Version control system.<br/>Implementation of the de facto industrial standard  [Git](https://en.wikipedia.org/wiki/Git).
-| Pipelines               | Automatically build, test and deploy solution to any stage and environment.
+| Pipelines               | Automatically build, test and deploy the solution to any stage and environment.
 | Artifacts               | Organize and control access to packages.</br>Including [Debug Symbols](https://en.wikipedia.org/wiki/Debug_symbol), [NuGet](https://en.wikipedia.org/wiki/NuGet), [NPM](https://en.wikipedia.org/wiki/Npm_(software)), [Maven](https://en.wikipedia.org/wiki/Apache_Maven) and others.
 | Test                    | Provide all types of tests and continous testing.
 | Load Test               | Generate a load and measure quality of service. 
-| Monitor                 | Мониторинг решения и предиктивная аналитики.
-| Feedback                | Сбор отзывов о использовании решения.
-| IDE                     | Development environment.</br>Integrated with all other services.
+| Monitor                 | Monitor the solution and predict behavior.
+| Feedback                | Request, collect and analyze feedback from users.
+| IDE                     | Development environment, integrated with all other services.
 
 ## Asembly
 
 In general there are two options to assemble all the services requeired.
 First one is to get different services from different vendors and the other is to get a pack of services from one vendor.
-
 It is like you need a car to ride and you can go to Tesla web site and buy one or you can get to a market buy separate parts and assemble one.
 
 1. option is Atlassian based, and it takes **at max 3 different services** from [Atlassian](https://www.atlassian.com/).
 2. option is Microsoft based, and **all services** are provided by Microsoft.
 
-## Compare options by aspects
+## Options by aspects
 
 Following table compares options by different aspects.
 
@@ -41,6 +40,8 @@ Following table compares options by different aspects.
 | Compliance         | [Atlassian declares](https://www.atlassian.com/trust/compliance) compliance with the following requirements:<br/>GDPR, ISO 27001, SOC 2 Type 1, CSA STAR Level 1.<br/>Compliance with other services supplier requirements - the big question. | [Microsoft declares](https://docs.microsoft.com/en-us/azure/devops/articles/team-services-security-whitepaper?view=vsts#compliance-certifications) compliance with the following requirements:<br/>GDPR, ISO 27001: 2013, SOC 1 Type 2, SOC 2 Type 2, HIPAA, BAA, EU Model Clauses.
 | Traceability       | **Requires investment** to setup. | Provided **out of the box**.
 | Cost & Payment     | Purchases from each vendor of each service are separate.<br/>**Separate invoices** at the end of the month.<br/>Total **cost** of ownership is **greater** than all-in-one solutions.| All services are purchased from one vendor as pack.<br/>**One invoice** at the end of the month.<br/>Total **cost** of ownership is **less** than separate systems.
+
+## Options by services and price
 
 Following table describes what exact services are included in the options and how much do they cost per month.
 
