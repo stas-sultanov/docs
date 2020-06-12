@@ -1,7 +1,7 @@
 # Plot
 
-Continuous Production is a flow production method,
-This method allows to build most efficient process of transformation Idea into the Value withi the software soultion lifecyle.
+Continuous Production is a flow production method.
+This method allows to build most efficient process of transformation Idea into the Value within the software soultion lifecyle.
 By efficiency time and money are considered.
 
 For example:
