@@ -24,7 +24,7 @@ At this track, basing on **Input** from business side or customers, **Ideas** ar
 Results of this track are placed in **Ideas Bucket** in order to be consumed by the next track.
 This is creative process this why it's time line can not be predicted.
 
-**Cross-cutting example**: based on dealers input PO decidedes to implement a scheduler that would allow to schedule appointments online. After discussion with SA, it has been decided to implement with O365 \ Exchange.
+Cross-cutting example: based on dealers input PO decidedes to implement a scheduler that would allow to schedule appointments online. After discussion with SA, it has been decided to implement with O365 \ Exchange.
 
 ### Requirements
 At this track, ideas are taken from **Ideas Bucket** and transformed into requirements.
@@ -32,26 +32,26 @@ Requirements contains exhaustive information, which is enough for engineers to i
 This information contains functional requirements, non function requirements and steps required to verify.
 The results of this track is placed into **Requirements Bucket** in order to be consumed by the next track.
 
-**Cross-cutting example**: PO works together with SA and LQA on exact requirements on how to implement functionality are created, test steps required to test functionality are created also.
+Cross-cutting example: PO works together with SA and LQA on exact requirements on how to implement functionality are created, test steps required to test functionality are created also.
 
 ### Implementation
 On this track, requirements are taken from **Requirements Bucket** and implemented.
 The results of this track are placed into **Implementation Bucket** in order to be consumed by the next track.
 It is important to note that engineer which implement the requiremnts get more understanding by reading test cases on how they should perfom initial verification that they did everything right.
 
-**Cross-cutting example**: LDE takes requirement, splits the work between engineers and implementes. Engineers perform initial verification that everything is done according to requirements.
+Cross-cutting example: LDE takes requirement, splits the work between engineers and implementes. Engineers perform initial verification that everything is done according to requirements.
 
 ### Verification
 On this track, implementation is taken from **Implementation Bucket** and verifies against the requirements.
 The goal of this track is to ensure that actual implementation meets all the requirements which were originally specified.
 The results of this track are placed into **Rollout Bucket** in order to be consumed by the next track.
 
-**Cross-cutting example**: LQE pefroms tests against the requirements and test cases. If only implementation meets PO expectations it is considered for rollout.
+Cross-cutting example: LQE pefroms tests against the requirements and test cases. If only implementation meets PO expectations it is considered for rollout.
 
-- **Rollout**
+## Rollout
 On this track, functionality which is ready to rollout is taken from **Rollout Bucket** and delivered to the consumers.
 
-**Cross-cutting example**: functionality to schedule the appointments appears in the applications, education materials are prepared, users are informed about new possibilities.
+Cross-cutting example: functionality to schedule the appointments appears in the applications, education materials are prepared, users are informed about new possibilities.
 
 ## Buckets
 
