@@ -71,7 +71,8 @@ At this visualization it's clear to see that no idle occurs, because each track 
 
 It is important to understand that there is no sense in trying to feet tasks in time boundaries.
 
-At this point it should be clear that there is no sense in planing, because work occurs as soon as input occurs. This is why it is important to have bucket full of ideas ready for the next step.
+At this point it should be clear that there is no sense in low level planing, because work occurs as soon as input occurs.
+This is why it is important to have bucket full of ideas ready for the next step.
 
 ## Rule
 There should be only one rule to follow, is that each constantly must have something on input.
