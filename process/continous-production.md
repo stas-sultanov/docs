@@ -62,12 +62,12 @@ This happens because items for further processing may be taken based on differen
 
 Below is a visualization of the process of continuous production.
 
-![2.svg](/2.svg)
+![process](./2.svg)
 
 Visualization of the bare same process, but from another point of view.
 At this visualization it's clear to see that no idle occurs, because each track takes next work to do whenever it is possible.
 
-![3.svg](/3.svg)
+![process](3.svg)
 
 It is important to understand that there is no sense in trying to feet tasks in time boundaries.
 
