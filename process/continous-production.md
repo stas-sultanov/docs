@@ -4,8 +4,7 @@ Continuous Production is a flow production method.
 This method allows to build most efficient process of transformation **Idea** to **Value** within the software soultion lifecyle.
 By efficiency time and money are considered.
 
-For example:
-If today PO will generate an idea on how to make customers bring more money.
+For example, if today PO will generate an idea on how to make customers bring more money.
 What would be the most efficient process by which engineers may transform this idea in actual value that must be brought to the customers?
 
 ## Digression 
@@ -46,6 +45,12 @@ The results of this step are placed into **Rollout Bucket** in order to be deliv
 ### Rollout
 On this step, value which is ready to rollout is taken from **Rollout Bucket** and delivered to the consumers.
 
+### Process Visualization
+
+Below is a visualization of the process from the sequence view.
+
+![process](./2.svg)
+
 ## Threads
 
 At this point we have an understanding what high level steps should be performed to transform **Idea** to **Value**.
@@ -58,16 +63,15 @@ Because for most of the steps it is required to have input(result of previous st
 
 It is important to understand why bucket instead of list is considered. This happens because items for further processing may be taken based on different reasons, likely this is priority but it also may be logical dependency and other reasons.
 
-## Process Visualization
+### Process Visualization
 
-Below is a visualization of the process of continuous production.
-
-![process](./2.svg)
-
-Visualization of the bare same process, but from another point of view.
-At this visualization it's clear to see that no idle occurs, because each thread takes next work to do whenever it is possible.
+Below is a visualization of the process from the parallel view.
 
 ![process](3.svg)
+
+## Notes to consider
+
+At last visualization it's clear to see that less idle occurs, because each thread takes next work to do whenever it is possible.
 
 It is important to understand that there is no sense in trying to feet work in time boundaries.
 
