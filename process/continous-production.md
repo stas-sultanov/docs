@@ -12,6 +12,12 @@ What would be the most efficient process by which engineers may transform this i
 It is crucial to accept the fact that work can be done when it can be done and not earlier.
 
 ## Process Tracks
+Actual process of transforming ideas into value may be spitted on steps
+1. Idea Creation
+1. Requirements Production
+1. Implementation
+1. Verification
+1. Rollout
 
 Actual process of transforming ideas into value may be spitted on 5 tracks.
 Each track consumes input, performs work and produces output.
