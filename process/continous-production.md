@@ -114,5 +114,5 @@ Functionality to schedule the appointments appears in the applications, educatio
 | LE | Lead Engineer
 | QE | Quality Engineer
 | DE | Dev Engineer
-| IX | Use Interf & Experince
+| IX | Interface & Experienc
 | TW | Technical Writer
