@@ -103,7 +103,7 @@ Functionality to schedule the appointments appears in the applications, educatio
 
 ## Roles and Responsibilities
 
-![Roles&Responsiblitise](./rr.PNG)
+![Roles&Responsiblitise](./rr.png)
 
 ### Legend
 
