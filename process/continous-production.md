@@ -115,4 +115,4 @@ Functionality to schedule the appointments appears in the applications, educatio
 | QE | Quality Engineer
 | DE | Dev Engineer
 | IX | Interface & Experienc
-| TW | Technical Writer
+| BA | Business Analyst
