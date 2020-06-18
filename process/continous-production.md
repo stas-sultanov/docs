@@ -100,3 +100,17 @@ If only implementation meets PO expectations it is considered for rollout.
 
 Step 5: Rollout.
 Functionality to schedule the appointments appears in the applications, education materials are prepared, users are informed about new possibilities.
+
+## Roles and Responsibilities
+
+| Acronym |Full
+|:-------:|:----
+| PO  |	Product Owner
+| SA  |	Solutions Architect
+| LE  |	Lead Engineer
+| QE  |	Quality Engineer
+| DE  | Dev Engineer
+| IX  |	Use Interf & Experince
+| TW  | Technical Writer
+
+![Roles&Responsiblitise](rr.png)
