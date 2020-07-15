@@ -15,27 +15,27 @@ It is crucial to accept the fact that work can be done when it can be done and n
 ## Steps
 
 Actual process of transforming **Idea** to **Value** may be spitted in to 5 simple higlevel steps:
-1. Idea Creation
-1. Requirements Production
+1. Analysis
+1. Design
 1. Implementation
 1. Verification
 1. Rollout
 
 Lets take a closer look at steps.
 
-### Creation
+### Analysis
 At this step, basing on research, input from business side or customers, **Ideas** are created.
 It is important to understand that ideas creation is creative process this why it's time line can not be predicted.
 Results are placed in **Ideas Bucket** in order to be considered for requirements production.
 
-### Requirements
-At this steps, ideas are taken from **Ideas Bucket** and transformed into requirements.
-Requirements must contain exhaustive information, which is enough for engineers to implement and verify.
+### Design
+At this steps, ideas are taken from **Ideas Bucket** and process of designing ouccurs.
+During this step requirements are created that must contain exhaustive information, which is enough for engineers to implement and verify.
 There must be functional requirements, non function requirements and steps required to verify.
-The results of this step are placed into **Requirements Bucket** in order to be considered for implementation.
+The results of this step are placed into **Design Bucket** in order to be considered for implementation.
 
 ### Implementation
-On this steps, requirements are taken from **Requirements Bucket** and implemented.
+On this steps, requirements are taken from **Design Bucket** and implemented.
 It is important to note that engineers which implement the requiremnts get more understanding by reading test cases on how they should perfom initial verification that they did everything right.
 The results of this step are placed into **Implementation Bucket** in order to be considered for verification.
 
@@ -85,11 +85,11 @@ There should be only one rule to follow, is that each constantly must have somet
 
 ## Cross cuting example
 
-Step 1 : Idea creation.
+Step 1 : Analysis.
 Based on customer input PO decidedes to implement a scheduler that would allow to schedule appointments online.
 After discussion with SA, it has been decided to implement with O365 \ Exchange.
 
-Step 2 : Requiremtes production.
+Step 2 : Design.
 PO works together with SA and LQA on exact requirements on how to implement functionality are created, test steps required to test functionality are created also.
 
 Step 3: Implementation.
