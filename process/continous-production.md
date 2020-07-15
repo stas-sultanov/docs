@@ -1,10 +1,12 @@
 # Plot
 
-Continuous Production is a flow production method.
-This method allows to build most efficient process of transformation **Idea** to **Value** within the software soultion lifecyle.
+Idea - is a concept of actions the implementation of which will lead to an increase in net profit.
+Both cost reduction and revenue increase are considered.
+
+Continuous Production is a flow production method that allows to build most efficient process of transformation **Idea** to **Value** within the software soultion lifecyle.
 By efficiency time and money are considered.
 
-For example, if today PO will generate an idea on how to make customers bring more money.
+For example, if today an idea on how to make customers bring more money has appeared.
 What would be the most efficient process by which engineers may transform this idea in actual value that must be brought to the customers?
 
 ## Digression 
