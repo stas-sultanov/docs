@@ -1,22 +1,34 @@
 # Plot
 
-Idea - is a concept of actions the implementation of which will lead to an increase in net profit.
-Both cost reduction and revenue increase are considered.
+Continuous Production aka CP is a flow production method that allows to build most efficient process of transformation **Idea** to **Value** within the software soultion lifecyle. Important to define that idea is a concept of actions the implementation of which will lead to an increase in net profit, both cost reduction and revenue increase are considered. And by efficiency both time and money are considered.
 
-Continuous Production is a flow production method that allows to build most efficient process of transformation **Idea** to **Value** within the software soultion lifecyle.
-By efficiency time and money are considered.
+**CP** is adaptive and value-driven approach, read more [here](https://en.wikipedia.org/wiki/Agile_software_development#Adaptive_vs._predictive). It means that it is focusesd on adapting quickly to changing realities and at the same time focus on bring value to business as soon as possible.
 
-For example, if today an idea on how to make customers bring more money has appeared.
-What would be the most efficient process by which engineers may transform this idea in actual value that must be brought to the customers?
+**CP** is designed in the way that if only today an idea on how to make customers bring more money has appeared,
+the company has a most efficient process for a team to transform this idea in actual value that must be can be brought to the customers.
 
-## Digression 
-It is crucial to accept the fact that work can be done when it can be done and not earlier.
+At high level Continous Production is a variant of [Kanban](https://en.wikipedia.org/wiki/Kanban_(development)) approach.
 
-## Steps
+## Digression
+
+It is crucial to accept the fact that in most IT projects work can be done when it can be done and not earlier.
+The reason for that is unlike in [Construction](https://en.wikipedia.org/wiki/Construction), from which projects are originated, in software development it is impossible to predict time required to perform work.
+This happens because of 2 major reasons:
+
+### Rapid changes
+Unlike in Construction, in software external factors and requirements are changing to often, and too often there is a situation that current solution can not support new requirements and significant rework is required.
+Interesting point is that for most of people it is easy to understand that on late stages of a building construction it is impossible to change it's  shape, purpose, add ore romove floors. But at the same time they do not understand that exactly same rules are applied to the software solutions.
+
+### No statistics
+2. Most of the work is going to be done at first time. It means that there is no statistics which allows
+This is why in most of the cases estimates either lie 
+The reason for that is most of the projects are done at first time and most of work also is going 
+
+## CP Process Decomposition 
 
 Actual process of transforming **Idea** to **Value** may be spitted in to 5 simple higlevel steps:
 1. Analysis
-1. Design
+1. Design (Requirements Production)
 1. Implementation
 1. Verification
 1. Rollout
@@ -26,9 +38,9 @@ Lets take a closer look at steps.
 ### Analysis
 At this step, basing on research, input from business side or customers, **Ideas** are created.
 It is important to understand that ideas creation is creative process this why it's time line can not be predicted.
-Results are placed in **Ideas Bucket** in order to be considered for requirements production.
+Results are placed in **Ideas Bucket** in order to be considered for requirements production on the Design phase.
 
-### Design
+### Design (Requirements Production)
 At this steps, ideas are taken from **Ideas Bucket** and process of designing ouccurs.
 During this step requirements are created that must contain exhaustive information, which is enough for engineers to implement and verify.
 There must be functional requirements, non function requirements and steps required to verify.
