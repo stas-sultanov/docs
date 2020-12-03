@@ -1,8 +1,11 @@
 # Plot
 
-Continuous Production aka **CP** is a flow production method that allows to build most efficient process of transformation **Idea** to **Value** within the software soultion lifecyle. Important to define that idea is a concept of actions the implementation of which will lead to an increase in net profit, both cost reduction and revenue increase are considered. And by efficiency both time and money are considered.
+Continuous Production aka **CP** is a flow production method that allows to build most efficient process of transformation **Idea** to **Value** within the software soultion lifecyle.
+Important to define the **Idea** - is a concept of actions the implementation of which will lead to an **increase** in net **profit**.
+By increase in profit both cost reduction and revenue increase are considered and by efficiency both time and money are considered.
 
-**CP** is adaptive and value-driven approach, read more [here](https://en.wikipedia.org/wiki/Agile_software_development#Adaptive_vs._predictive). It means that it is focusesd on adapting quickly to changing realities and at the same time focus on bring value to business as soon as possible.
+**CP** is adaptive and value-driven approach, read more [here](https://en.wikipedia.org/wiki/Agile_software_development#Adaptive_vs._predictive).
+It means that it is focused on adapting quickly to rapidly changing circumstances and at the same time on bringing value to the business as soon as possible.
 
 **CP** is designed in the way that if only today an idea on how to increase a profit has appeared, the company has the most efficient process for a team to transform this idea in actual value.
 
@@ -10,8 +13,8 @@ Continuous Production aka **CP** is a flow production method that allows to buil
 
 ## Digression
 
-It is crucial to accept the fact that in most IT projects work can be done when it can be done and not earlier.
-The reason for that is unlike in [Construction](https://en.wikipedia.org/wiki/Construction), from which projects are originated, in software development it is impossible to predict time required to perform work.
+It is crucial to accept the fact that in most Software Projects work can be done when it can be done and not earlier.
+The reason for that is unlike in [Construction](https://en.wikipedia.org/wiki/Construction), from which projects are originated, in software development it is impossible to predict and estimate time required to perform the work.
 This happens because of 2 major reasons:
 
 ### Rapid changes
@@ -19,13 +22,14 @@ Unlike in Construction, in software external factors and requirements are changi
 Interesting point is that for most of people it is easy to understand that on late stages of a building construction it is impossible to change the shape, purpose, add or remove floors. But at the same time they do not understand that exactly the same rules are applied to the software solutions.
 
 ### No statistics to estimate
-It is crucial to understand that in Construction there is a superior statistics collected about executed projects and literally it has been collected for ages.
-This allows to split Construction in to well known, due to statistics, phases and what is more important each phase can be splitted in simple, well known, executed gazillion times [operations](https://en.wikipedia.org/wiki/Operations_management).
-Unfortunately this cannot be applied to Software Projects. Software Solutions are relatively young discipline so there is a too few statistic collected, also variety of Software Solutions compared to any other descipline is a way higher. Even if Software Project is splited to phases and each phase is splited ot operations/tasks there is no way to provide estimates on operation. Because when it comes to estimation of operation by exact individual, to make it the individual must have significant experience and statistics on executing exact operation under exact circumstances and conditions. Not even slightly different - exact.
-And almost always this is a case.
-Individuals are going to the exact task for a first time and conditions and circumstance are different.
+In Construction there is a superior statistics collected about executed projects and literally it has been collected for ages.
+This allows to split Construction in to well known, due to statistics, phases and what is more important each phase can be splitted in simple, well known, executed gazillion times [operations](https://en.wikipedia.org/wiki/Operations_management). And time required to execute the operation is well known, due to statistics.
 
-Unfortunately for most of the cases estimates, which are exhausted by the managers from the engineers, are nothing more than just a guess or a lie, believe you or not.
+Software Projects are relatively young discipline so there is a too few statistic collected, also variety of Software Solutions compared to any other descipline is a way higher. Even if Software Project is splited to phases and each phase is splited ot operations/tasks there is no way to provide time estimates on operations/tasks. Because when it comes to estimation of tasks by exact individual, to make it the individual must have significant experience and statistics on executing exact operation under exact circumstances and conditions. Not even slightly different - exact.
+And almost always this is a case: individuals are going to do the exact task for a first time and conditions and circumstance are different.
+
+Unfortunately for most of the companies which practieces [predictvie](https://en.wikipedia.org/wiki/Agile_software_development#Adaptive_vs._predictive) approaches for Software Projects, the estimates, which are exhausted by the managers from the engineers, are nothing more than just a guess or a lie, believe you or not.
+And this actually reflected by statistics, you may easily find in internet that most of Software Projects either exceed time and budget or just failing.
 
 ## CP Process Decomposition 
 
@@ -36,13 +40,10 @@ Actual process of transforming **Idea** to **Value** consists of 5 simple higlev
 1. Verification
 1. Rollout
 
-
 ### Creation
 Usualy based on research, input from business side or customers, **Ideas** are created.
 As mentioned earlier Idea is right anything, that if implemented will bring profit to the company.
 Once originated - Ideas are putted into the **backlog** and considered as **ToDo**, and actual **CP** process starts.
-It is important to understand that ideas creation is creative process this why it's time line can not be predicted.
-
 
 Lets take a closer look at the steps:
 
@@ -128,13 +129,16 @@ Here we may see roles and their responsibilites within the process.
 | **S** | Supports
 
 ## Cross cuting example
+Bellow is an example on how the process might look like for company which develops software to work with customers.
+
+Step 0 : Cretaion
+Based on customer input PO decidedes to implement a scheduler that would allow customers to schedule appointments online.
 
 Step 1 : Analysis.
-Based on customer input PO decidedes to implement a scheduler that would allow to schedule appointments online.
-After discussion with SA, it has been decided to implement with O365 \ Exchange.
+After discussion with SA, it has been decided to implement with O365 \ Exchange \ Calendar.
 
 Step 2 : Design.
-PO works together with SA and LQA on exact requirements on how to implement functionality are created, test steps required to test functionality are created also.
+PO works together with SA and QE on exact requirements on how to implement functionality are created, test steps required to test functionality are created also.
 
 Step 3: Implementation.
 LDE takes requirement, splits the work between engineers and implementes.
