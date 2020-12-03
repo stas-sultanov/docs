@@ -1,6 +1,6 @@
 # Plot
 
-Continuous Production aka CP is a flow production method that allows to build most efficient process of transformation **Idea** to **Value** within the software soultion lifecyle. Important to define that idea is a concept of actions the implementation of which will lead to an increase in net profit, both cost reduction and revenue increase are considered. And by efficiency both time and money are considered.
+Continuous Production aka **CP** is a flow production method that allows to build most efficient process of transformation **Idea** to **Value** within the software soultion lifecyle. Important to define that idea is a concept of actions the implementation of which will lead to an increase in net profit, both cost reduction and revenue increase are considered. And by efficiency both time and money are considered.
 
 **CP** is adaptive and value-driven approach, read more [here](https://en.wikipedia.org/wiki/Agile_software_development#Adaptive_vs._predictive). It means that it is focusesd on adapting quickly to changing realities and at the same time focus on bring value to business as soon as possible.
 
@@ -21,18 +21,11 @@ Interesting point is that for most of people it is easy to understand that on la
 ### No statistics to estimate
 It is crucial to understand that in Construction there is a superior statistics collected about executed projects and literally it has been collected for ages.
 This allows to split Construction in to well known, due to statistics, phases and what is more important each phase can be splitted in simple, well known, executed gazillion times [operations](https://en.wikipedia.org/wiki/Operations_management).
-Unfortunately this cannot be applied to Software Projects. Software Solutions are relatively young discipline so there is a to few statistic collected, also variety of Software Solutions compared to any other descipline is a way higher.
+Unfortunately this cannot be applied to Software Projects. Software Solutions are relatively young discipline so there is a too few statistic collected, also variety of Software Solutions compared to any other descipline is a way higher. Even if Software Project is splited to phases and each phase is splited ot operations/tasks there is no way to provide estimates on operation. Because when it comes to estimation of operation by exact individual, to make it the individual must have significant experience and statistics on executing exact operation under exact circumstances and conditions. Not even slightly different - exact.
+And almost always this is a case.
+Individuals are going to the exact task for a first time and conditions and circumstance are different.
 
-And the show stoper is that even if splited to phases and operations/tasks there is no way to provide estimates on operation.
-When it comes to estimation of operation by exact individual, to make it the individual must have significant experience and statistics on executing exact operation under exact circumstances and conditions. Not even slightly different - exact. And almost always this is a case individuals are going to the exact task for a frist time, there is
-
-Unfortunatly for most of the cases estimates which are kicked from engineers are nothing more than just a guess or a lie belive you or not.
-
-
-In Construction project it is assumed that requirements will not change due to obvious reasons and the whole work maybe splited on phases because there is a superior number of times nearby the same process has occured and there is a static
-2. Most of the work is going to be done at first time. It means that there is no statistics which allows
-This is why in most of the cases estimates either lie 
-The reason for that is most of the projects are done at first time and most of work also is going 
+Unfortunately for most of the cases estimates, which are exhausted by the managers from the engineers, are nothing more than just a guess or a lie, believe you or not.
 
 ## CP Process Decomposition 
 
@@ -43,15 +36,21 @@ Actual process of transforming **Idea** to **Value** consists of 5 simple higlev
 1. Verification
 1. Rollout
 
+
+### Creation
 Usualy based on research, input from business side or customers, **Ideas** are created.
 As mentioned earlier Idea is right anything, that if implemented will bring profit to the company.
-Once created Ideas are putted into the backlog and considered as **ToDo**, and actual **CP** process starts.
-Lets take a closer look at steps.
+Once originated - Ideas are putted into the **backlog** and considered as **ToDo**, and actual **CP** process starts.
+It is important to understand that ideas creation is creative process this why it's time line can not be predicted.
+
+
+Lets take a closer look at the steps:
 
 ### Analysis
-At this step, 
-It is important to understand that ideas creation is creative process this why it's time line can not be predicted.
-The results of this stage are placed in **Ideas Bucket** in order to be considered for requirements production on the Design phase.
+At this step, ideas are taken from **Backlog** and analised.
+First point to analyze - if this idea will realy bring a profit.
+Second point to analyze - what is a best way to implement it, considering all current conditions and circumastances like architecture.
+The results of this stage are placed in **Ideas Bucket** in order to be considered for requirements production on the design.
 
 ### Design (Requirements Production)
 At this steps, ideas are taken from **Ideas Bucket** and process of designing ouccurs.
@@ -72,25 +71,27 @@ The results of this step are placed into **Rollout Bucket** in order to be deliv
 ### Rollout
 On this step, value which is ready to rollout is taken from **Rollout Bucket** and delivered to the consumers.
 
-### Process Visualization
+### Sequential Process Visualization
 
 Below is a visualization of the process from the sequence view.
 
 ![process](./2.svg)
 
-## Threads
+## Teams and Threads
 
 At this point we have an understanding what high level steps should be performed to transform **Idea** to **Value**.
 Each step takes time to perform and there are dependencies between steps.
-In sake of efficiency, same type steps must be performed on separate thread.
 
-This bring us to the idea on having 5 parallel threads.
+In sake of efficiency, same type of the steps should be performed on separate thread by a separate team.
+This bring us to the idea on having 5 parallel teams/threads.
 
-Because for most of the steps it is required to have input(result of previous step), we utilise buckets to avoid the need of threads syncronisation.
+To avoid the teams/threads syncronisation or reduce the effort on this - the concept of bucket is utilised.
+The place where each team/thread puts result of their work and othre thread consuems it.
 
-It is important to understand why bucket instead of list is considered. This happens because items for further processing may be taken based on different reasons, likely this is priority but it also may be logical dependency and other reasons.
+It is important to understand why bucket instead of list is considered.
+This happens because items for further processing may be taken based on different reasons, likely this is priority but it also may be logical dependency and other reasons.
 
-### Process Visualization
+### Parallel Process Visualization
 
 Below is a visualization of the process from the parallel view.
 
@@ -98,15 +99,33 @@ Below is a visualization of the process from the parallel view.
 
 ## Notes to consider
 
-At last visualization it's clear to see that less idle occurs, because each thread takes next work to do whenever it is possible.
-
-It is important to understand that there is no sense in trying to feet work in time boundaries.
+At last visualization it's clear to see that less idle occurs, because each thread and team takes next work to do whenever it is possible.
+And this is why time boundaries like weeks or artificial sprints makes no sense.
 
 At this point it should be clear that there is no sense in low level planing, because work occurs as soon as input occurs.
 This is why it is important to have bucket full of ideas ready for the next step.
 
 ### Rule
-There should be only one rule to follow, is that each constantly must have something on input.
+There should be only one rule to follow, is that each team\thread must constantly have something on input.
+
+## Roles and Responsibilities
+Here we may see roles and their responsibilites within the process.
+
+![Roles&Responsiblitise](./rr.png)
+
+### Legend
+
+| Acronym | Full
+|:---|:----
+| PO | Product Owner
+| SA | Solutions Architect
+| LE | Lead Engineer
+| QE | Quality Engineer
+| DE | Dev Engineer
+| IX | Interface & Experienc
+| BA | Business Analyst
+| **R** | Responsible
+| **S** | Supports
 
 ## Cross cuting example
 
@@ -127,19 +146,3 @@ If only implementation meets PO expectations it is considered for rollout.
 
 Step 5: Rollout.
 Functionality to schedule the appointments appears in the applications, education materials are prepared, users are informed about new possibilities.
-
-## Roles and Responsibilities
-
-![Roles&Responsiblitise](./rr.png)
-
-### Legend
-
-| Acronym | Full
-|:---|:----
-| PO | Product Owner
-| SA | Solutions Architect
-| LE | Lead Engineer
-| QE | Quality Engineer
-| DE | Dev Engineer
-| IX | Interface & Experienc
-| BA | Business Analyst
