@@ -4,10 +4,9 @@ Continuous Production aka CP is a flow production method that allows to build mo
 
 **CP** is adaptive and value-driven approach, read more [here](https://en.wikipedia.org/wiki/Agile_software_development#Adaptive_vs._predictive). It means that it is focusesd on adapting quickly to changing realities and at the same time focus on bring value to business as soon as possible.
 
-**CP** is designed in the way that if only today an idea on how to make customers bring more money has appeared,
-the company has a most efficient process for a team to transform this idea in actual value that must be can be brought to the customers.
+**CP** is designed in the way that if only today an idea on how to increase a profit has appeared, the company has the most efficient process for a team to transform this idea in actual value.
 
-At high level Continous Production is a variant of [Kanban](https://en.wikipedia.org/wiki/Kanban_(development)) approach.
+**CP** is a more efficient and reality close variant of the [Kanban](https://en.wikipedia.org/wiki/Kanban_(development)) approach.
 
 ## Digression
 
@@ -16,29 +15,43 @@ The reason for that is unlike in [Construction](https://en.wikipedia.org/wiki/Co
 This happens because of 2 major reasons:
 
 ### Rapid changes
-Unlike in Construction, in software external factors and requirements are changing to often, and too often there is a situation that current solution can not support new requirements and significant rework is required.
-Interesting point is that for most of people it is easy to understand that on late stages of a building construction it is impossible to change it's  shape, purpose, add ore romove floors. But at the same time they do not understand that exactly same rules are applied to the software solutions.
+Unlike in Construction, in software external factors and requirements are changing too often, and too often there is a situation that current solution can not support new requirements and significant rework is required.
+Interesting point is that for most of people it is easy to understand that on late stages of a building construction it is impossible to change the shape, purpose, add or remove floors. But at the same time they do not understand that exactly the same rules are applied to the software solutions.
 
-### No statistics
+### No statistics to estimate
+It is crucial to understand that in Construction there is a superior statistics collected about executed projects and literally it has been collected for ages.
+This allows to split Construction in to well known, due to statistics, phases and what is more important each phase can be splitted in simple, well known, executed gazillion times [operations](https://en.wikipedia.org/wiki/Operations_management).
+Unfortunately this cannot be applied to Software Projects. Software Solutions are relatively young discipline so there is a to few statistic collected, also variety of Software Solutions compared to any other descipline is a way higher.
+
+And the show stoper is that even if splited to phases and operations/tasks there is no way to provide estimates on operation.
+When it comes to estimation of operation by exact individual, to make it the individual must have significant experience and statistics on executing exact operation under exact circumstances and conditions. Not even slightly different - exact. And almost always this is a case individuals are going to the exact task for a frist time, there is
+
+Unfortunatly for most of the cases estimates which are kicked from engineers are nothing more than just a guess or a lie belive you or not.
+
+
+In Construction project it is assumed that requirements will not change due to obvious reasons and the whole work maybe splited on phases because there is a superior number of times nearby the same process has occured and there is a static
 2. Most of the work is going to be done at first time. It means that there is no statistics which allows
 This is why in most of the cases estimates either lie 
 The reason for that is most of the projects are done at first time and most of work also is going 
 
 ## CP Process Decomposition 
 
-Actual process of transforming **Idea** to **Value** may be spitted in to 5 simple higlevel steps:
+Actual process of transforming **Idea** to **Value** consists of 5 simple higlevel steps:
 1. Analysis
 1. Design (Requirements Production)
 1. Implementation
 1. Verification
 1. Rollout
 
+Usualy based on research, input from business side or customers, **Ideas** are created.
+As mentioned earlier Idea is right anything, that if implemented will bring profit to the company.
+Once created Ideas are putted into the backlog and considered as **ToDo**, and actual **CP** process starts.
 Lets take a closer look at steps.
 
 ### Analysis
-At this step, basing on research, input from business side or customers, **Ideas** are created.
+At this step, 
 It is important to understand that ideas creation is creative process this why it's time line can not be predicted.
-Results are placed in **Ideas Bucket** in order to be considered for requirements production on the Design phase.
+The results of this stage are placed in **Ideas Bucket** in order to be considered for requirements production on the Design phase.
 
 ### Design (Requirements Production)
 At this steps, ideas are taken from **Ideas Bucket** and process of designing ouccurs.
