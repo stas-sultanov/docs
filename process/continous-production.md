@@ -1,4 +1,6 @@
-# Plot
+# Continuous Production
+
+## Plot
 
 Continuous Production aka **CP** is a flow production method that allows to build most efficient process of transformation **Idea** to **Value** within the software soultion lifecyle.
 Important to define the **Idea** - is a concept of actions the implementation of which will lead to an **increase** in net **profit**.
