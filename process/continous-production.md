@@ -113,19 +113,20 @@ There should be only one rule to follow, is that each team\thread must constantl
 ## Roles and Responsibilities
 Here we may see roles and their responsibilites within the process.
 
-![Roles&Responsiblitise](./rr.png)
+![Roles&Responsiblitise](./rar.png)
 
 ### Legend
 
 | Acronym | Full
-|:---|:----
-| PO | Product Owner
-| SA | Solutions Architect
-| LE | Lead Engineer
-| QE | Quality Engineer
-| DE | Dev Engineer
-| IX | Interface & Experienc
-| BA | Business Analyst
+|:----|:----
+| PO  | Product Owner
+| BA  | Business Analyst
+| IX  | Interface & Experienc
+| SA  | Solutions Architect
+| LQE | Lead Quality Engineer
+| LDE | Lead Dev Engineer
+| DE  | Dev Engineer
+| QE  | Quality Engineer
 | **R** | Responsible
 | **S** | Supports
 
