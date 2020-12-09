@@ -2,11 +2,11 @@
 
 ## Plot
 
-Continuous Production aka **CP** is a flow production method that allows to build most efficient process of transformation **Idea** to **Value** within the software soultion lifecyle.
+Continuous Production aka **CP** is a flow production method that allows to build the most efficient process of transformation **Idea** to **Value** within the software soultion lifecyle.
 Important to define the **Idea** - is a concept of actions the implementation of which will lead to an **increase** in net **profit**.
 By increase in profit both cost reduction and revenue increase are considered and by efficiency both time and money are considered.
 
-**CP** is adaptive and value-driven approach, read more [here](https://en.wikipedia.org/wiki/Agile_software_development#Adaptive_vs._predictive).
+**CP** is adaptive and [value-driven](https://en.wikipedia.org/wiki/Agile_software_development#Adaptive_vs._predictive) approach.
 It means that it is focused on adapting quickly to rapidly changing circumstances and at the same time on bringing value to the business as soon as possible.
 
 **CP** is designed in the way that if only today an idea on how to increase a profit has appeared, the company has the most efficient process for a team to transform this idea in actual value.
@@ -16,19 +16,19 @@ It means that it is focused on adapting quickly to rapidly changing circumstance
 ## Digression
 
 It is crucial to accept the fact that in most Software Projects work can be done when it can be done and not earlier.
-The reason for that is unlike in [Construction](https://en.wikipedia.org/wiki/Construction), from which projects are originated, in software development it is impossible to predict and estimate time required to perform the work.
+The reason for that is unlike in [Construction](https://en.wikipedia.org/wiki/Construction), from which projects are originated, in software development it is impossible to predict or estimate time required to perform the work.
 This happens because of 2 major reasons:
 
 ### Rapid changes
-Unlike in Construction, in software external factors and requirements are changing too often, and too often there is a situation that current solution can not support new requirements and significant rework is required.
+Unlike in Construction, in Software Projects external factors and requirements are changing too often, and too often there is a situation that current solution can not support new requirements and significant rework is required.
 Interesting point is that for most of people it is easy to understand that on late stages of a building construction it is impossible to change the shape, purpose, add or remove floors. But at the same time they do not understand that exactly the same rules are applied to the software solutions.
 
 ### No statistics to estimate
 In Construction there is a superior statistics collected about executed projects and literally it has been collected for ages.
-This allows to split Construction in to well known, due to statistics, phases and what is more important each phase can be splitted in simple, well known, executed gazillion times [operations](https://en.wikipedia.org/wiki/Operations_management). And time required to execute the operation is well known, due to statistics.
+This allows to split Construction Project in to well known, due to statistics, phases and what is more important each phase can be splitted in simple, well known, executed gazillion times [operations](https://en.wikipedia.org/wiki/Operations_management). And time required to execute the operation is well known, due to statistics.
 
-Software Projects are relatively young discipline so there is a too few statistic collected, also variety of Software Solutions compared to any other descipline is a way higher. Even if Software Project is splited to phases and each phase is splited ot operations/tasks there is no way to provide time estimates on operations/tasks. Because when it comes to estimation of tasks by exact individual, to make it the individual must have significant experience and statistics on executing exact operation under exact circumstances and conditions. Not even slightly different - exact.
-And almost always this is a case: individuals are going to do the exact task for a first time and conditions and circumstance are different.
+Software Projects are relatively young discipline so there is a too few statistic collected, also variety of Software Solutions compared to any other descipline is a way higher. Even if Software Project is splitted to phases and each phase is splitted ot operations/tasks there is no way to provide time estimates to exact operations/tasks. Because when it comes to estimation of exact operation/task by exact individual, to make it the individual must have significant experience and statistics on executing exact operation under exact circumstances and conditions. Not even slightly different - exact.
+And almost always this is a case: individuals are going to do the exact task for a first time and circumstance are going to be different.
 
 Unfortunately for most of the companies which practieces [predictvie](https://en.wikipedia.org/wiki/Agile_software_development#Adaptive_vs._predictive) approaches for Software Projects, the estimates, which are exhausted by the managers from the engineers, are nothing more than just a guess or a lie, believe you or not.
 And this actually reflected by statistics, you may easily find in internet that most of Software Projects either exceed time and budget or just failing.
@@ -42,7 +42,6 @@ Actual process of transforming **Idea** to **Value** consists of 5 simple higlev
 1. Verification
 1. Rollout
 
-### Creation
 Usualy based on research, input from business side or customers, **Ideas** are created.
 As mentioned earlier Idea is right anything, that if implemented will bring profit to the company.
 Once originated - Ideas are putted into the **backlog** and considered as **ToDo**, and actual **CP** process starts.
